@@ -1,0 +1,12 @@
+pl/edu/agh/kis/soa/model/json/Course$1.class
+pl/edu/agh/kis/soa/service/MockDean.class
+pl/edu/agh/kis/soa/model/json/Student$Builder.class
+pl/edu/agh/kis/soa/model/db/StudentEntity.class
+pl/edu/agh/kis/soa/model/json/Course.class
+pl/edu/agh/kis/soa/model/json/Student$1.class
+pl/edu/agh/kis/soa/model/json/Course$Builder.class
+pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.class
+pl/edu/agh/kis/soa/model/json/DTOList.class
+pl/edu/agh/kis/soa/model/json/Student.class
+pl/edu/agh/kis/soa/service/DeanService.class
+pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.class

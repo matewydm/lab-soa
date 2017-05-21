@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lab.iml" filepath="$PROJECT_DIR$/lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab-consume/lab-consume.iml" filepath="$PROJECT_DIR$/lab-consume/lab-consume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab-ear/lab-ear.iml" filepath="$PROJECT_DIR$/lab-ear/lab-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab-model/lab-model.iml" filepath="$PROJECT_DIR$/lab-model/lab-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab-rest/lab-rest.iml" filepath="$PROJECT_DIR$/lab-rest/lab-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab-rest-consume/lab-rest-consume.iml" filepath="$PROJECT_DIR$/lab-rest-consume/lab-rest-consume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab-soap/lab-soap.iml" filepath="$PROJECT_DIR$/lab-soap/lab-soap.iml" />
+    </modules>
+  </component>
+</project>

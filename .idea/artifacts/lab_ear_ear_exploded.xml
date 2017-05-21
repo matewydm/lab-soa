@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="lab-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/lab-ear/target/lab-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="lab-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/lab-ear/target/lab-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/lab-ear/src/main/application" />
+      <element id="archive" name="lab-rest.war">
+        <element id="artifact" artifact-name="lab-rest:war exploded" />
+      </element>
+      <element id="archive" name="lab-soap.jar">
+        <element id="artifact" artifact-name="lab-soap:ejb exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" output-file-name="commons-codec.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/jboss/ws/jbossws-api/1.0.3.Final/jbossws-api-1.0.3.Final.jar" output-file-name="jbossws-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar" output-file-name="jsr250-api.jar" />
+      </element>
+      <element id="archive" name="lab-model.jar">
+        <element id="artifact" artifact-name="lab-model:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

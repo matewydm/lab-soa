@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="lab-soap:ejb">
+    <output-path>$PROJECT_DIR$/lab-soap/target</output-path>
+    <root id="archive" name="lab-soap.jar">
+      <element id="artifact" artifact-name="lab-soap:ejb exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lab-ear" />
+        <module name="lab-ejb" />
+        <module name="lab-model" />
+        <module name="lab-rest" />
+        <module name="lab-rest-consume" />
+        <module name="lab-soap" />
+        <module name="lab-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lab" target="1.8" />
+      <module name="lab-ear" target="1.8" />
+      <module name="lab-ejb" target="1.7" />
+      <module name="lab-model" target="1.8" />
+      <module name="lab-rest" target="1.8" />
+      <module name="lab-rest-consume" target="1.8" />
+      <module name="lab-soap" target="1.8" />
+      <module name="lab-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

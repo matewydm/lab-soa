@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lab-web:war">
+    <output-path>$PROJECT_DIR$/lab-web/target</output-path>
+    <root id="archive" name="lab-web.war">
+      <element id="artifact" artifact-name="lab-web:war exploded" />
+    </root>
+  </artifact>
+</component>
