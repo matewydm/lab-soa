@@ -1,20 +1,17 @@
 package pl.edu.agh.kis.soa.model.json;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
-import javax.xml.bind.annotation.XmlTransient;
+import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Student {
 
+    @XmlTransient
     private String firstName;
     private String surname;
     private String indexNumber;
-    private String login;
     private byte[] picture;
-    @XmlTransient
-    private String password;
     @XmlElementWrapper(name="courses")
     @XmlElement(name="course")
     List<Course> courses = new ArrayList<>();
@@ -23,13 +20,11 @@ public class Student {
 
     }
 
-    public Student(String firstName, String surname, String indexNumber, String login, byte[] picture, String password, List<Course> courses) {
+    public Student(String firstName, String surname, String indexNumber, byte[] picture, List<Course> courses) {
         this.firstName = firstName;
         this.surname = surname;
         this.indexNumber = indexNumber;
-        this.login = login;
         this.picture = picture;
-        this.password = password;
         this.courses = courses;
     }
 
@@ -37,10 +32,7 @@ public class Student {
         setFirstName(builder.firstName);
         setSurname(builder.surname);
         setIndexNumber(builder.indexNumber);
-        setLogin(builder.login);
-        setLogin(builder.login);
         setPicture(builder.picture);
-        setPassword(builder.password);
         courses = builder.courses;
     }
 
@@ -68,13 +60,6 @@ public class Student {
         this.indexNumber = indexNumber;
     }
 
-    public String getLogin() {
-        return login;
-    }
-
-    public void setLogin(String login) {
-        this.login = login;
-    }
 
     public byte[] getPicture() {
         return picture;
@@ -82,15 +67,6 @@ public class Student {
 
     public void setPicture(byte[] picture) {
         this.picture = picture;
-    }
-
-    @XmlTransient
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
     }
 
     public List<Course> getCourses() {
@@ -108,8 +84,6 @@ public class Student {
         private String firstName;
         private String surname;
         private String indexNumber;
-        private String login;
-        private String password;
         private byte[] picture;
         private List<Course> courses;
 
@@ -131,18 +105,8 @@ public class Student {
             return this;
         }
 
-        public Builder login(String val) {
-            login = val;
-            return this;
-        }
-
         public Builder picture(byte[] pic) {
             picture = pic;
-            return this;
-        }
-
-        public Builder password(String val) {
-            password = val;
             return this;
         }
 

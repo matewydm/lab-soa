@@ -14,7 +14,6 @@ import java.util.List;
 public class DeanRest {
 
     @Inject
-    @MockDean
     private DeanService deanService;
 
     @GET

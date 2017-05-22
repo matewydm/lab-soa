@@ -1,38 +1,27 @@
 package pl.edu.agh.kis.soa.model.json;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.*;
 import java.util.HashSet;
 import java.util.Set;
 
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Course {
 
+    private Integer courseId;
     private String name;
+    @XmlElement(name = "ects")
     private Integer ects;
-    @XmlElementWrapper(name = "lecturers")
-    @XmlElement(name = "lecturer")
-    private Set<String> lecturers;
 
     public Course(String name, Integer ects) {
         this.name = name;
         this.ects = ects;
     }
+    public Course() {
+    }
 
     private Course(Builder builder) {
         setName(builder.name);
         setEcts(builder.ects);
-        lecturers = builder.lecturers;
-    }
-
-    public Set<String> getLecturers() {
-        return lecturers;
-    }
-
-    public void setLecturers(String lecturer) {
-        if (lecturers == null) {
-            lecturers = new HashSet<>();
-        }
-        lecturers.add(lecturer);
     }
 
     public String getName() {
@@ -49,6 +38,14 @@ public class Course {
 
     public void setEcts(Integer ects) {
         this.ects = ects;
+    }
+
+    public Integer getCourseId() {
+        return courseId;
+    }
+
+    public void setCourseId(Integer courseId) {
+        this.courseId = courseId;
     }
 
 

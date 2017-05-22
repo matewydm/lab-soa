@@ -1,18 +1,29 @@
 package pl.edu.agh.kis.soa.service.impl;
 
 
+import pl.edu.agh.kis.soa.dao.CourseRepository;
+import pl.edu.agh.kis.soa.dao.StudentRepository;
 import pl.edu.agh.kis.soa.model.json.Student;
+import pl.edu.agh.kis.soa.model.mapper.StudentMapper;
 import pl.edu.agh.kis.soa.service.DeanService;
 
 import javax.enterprise.inject.Default;
+import javax.inject.Inject;
 import java.util.List;
 
 @Default
 public class DeanServiceImpl implements DeanService{
 
+    @Inject
+    private CourseRepository courseRepository;
+    @Inject
+    private StudentRepository studentRepository;
+    @Inject
+    private StudentMapper studentMapper;
+
     @Override
     public Student findStudent(String index) {
-        return null;
+        return studentMapper.entityToJson(studentRepository.get(index));
     }
 
     @Override

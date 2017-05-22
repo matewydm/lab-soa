@@ -105,19 +105,19 @@ public class DeanServiceSimpleImpl implements DeanService{
     private void initStudents() {
         List studentList = new ArrayList<Student>();
 
-        Student s1 = new Student("Mateusz", "Wydmanski", "275789", "mucha", getFileByPath("/home/mucha/Obrazy/wallpaper.jpg" ), "pass", Arrays.asList(
+        Student s1 = new Student("Mateusz", "Wydmanski", "275789", getFileByPath("/home/mucha/Obrazy/wallpaper.jpg" ), Arrays.asList(
                 new Course[] {new Course("SOA", 5)}
         ));
-        Student s2 = new Student("Michał", "Kałduś", "275757", "michkald",  getFileByPath("/home/mucha/Obrazy/chrome-icon.png" ), "pass", Arrays.asList(
+        Student s2 = new Student("Michał", "Kałduś", "275757",  getFileByPath("/home/mucha/Obrazy/chrome-icon.png" ),  Arrays.asList(
                 new Course[] {new Course("SOA", 5)}
         ));
         studentList.add(s1);
         studentList.add(s2);
 
         List<Student> studentBuilderList = new ArrayList<Student>();
-        Student x1 = new Student.Builder().firstName("Marcin").surname("Flis").indexNumber("275213").login("marcflis").password("pass").courses(new
+        Student x1 = new Student.Builder().firstName("Marcin").surname("Flis").indexNumber("275213").courses(new
                 Course.Builder().name("SOA").ects(5).build()).courses(new Course.Builder().name("SW").ects(3).build()).build();
-        Student x2 = new Student.Builder().firstName("Damian").surname("Pasek").indexNumber("275212").login("damipase").password("pass").courses(new
+        Student x2 = new Student.Builder().firstName("Damian").surname("Pasek").indexNumber("275212").courses(new
                 Course.Builder().name("SOA").ects(5).build()).courses(new Course.Builder().name("SW").ects(3).build()).build();
         studentBuilderList.add(x1);
         studentBuilderList.add(x2);
