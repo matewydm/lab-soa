@@ -18,6 +18,7 @@ public class DeanRest {
 
     @GET
     @Path("/{index}")
+    @Produces(MediaType.APPLICATION_JSON)
     public Student getStudent(@PathParam("index") String index){
         return deanService.findStudent(index);
     }
@@ -48,6 +49,7 @@ public class DeanRest {
     }
 
     @PUT
+    @Consumes(MediaType.APPLICATION_JSON)
     public void updateStudent(Student student){
         deanService.updateStudent(student);
     }

@@ -3,6 +3,7 @@ package pl.edu.agh.kis.soa.service.impl;
 
 import pl.edu.agh.kis.soa.dao.CourseRepository;
 import pl.edu.agh.kis.soa.dao.StudentRepository;
+import pl.edu.agh.kis.soa.model.db.StudentEntity;
 import pl.edu.agh.kis.soa.model.json.Student;
 import pl.edu.agh.kis.soa.model.mapper.StudentMapper;
 import pl.edu.agh.kis.soa.service.DeanService;
@@ -28,7 +29,7 @@ public class DeanServiceImpl implements DeanService{
 
     @Override
     public List<Student> getAllStudent() {
-        return null;
+        return studentMapper.entityListToJsonList(studentRepository.getAll());
     }
 
     @Override
@@ -48,16 +49,18 @@ public class DeanServiceImpl implements DeanService{
 
     @Override
     public void deleteStudent(String index) {
-
+        StudentEntity studentEntity = new StudentEntity();
+        studentEntity.setStdIndex(index);
+        studentRepository.delete(studentEntity);
     }
 
     @Override
     public void updateStudent(Student student) {
-
+        studentRepository.update(studentMapper.jsonToEntity(student));
     }
 
     @Override
     public String findStudentName(String index) {
-        return null;
+        return studentRepository.getStudentName(index);
     }
 }

@@ -29,5 +29,4 @@ public class CourseRepository {
         session.delete(course);
     }
 
-
 }
