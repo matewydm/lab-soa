@@ -15,6 +15,7 @@ public class StudentEntity {
     private List<CourseEntity> courses;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "std_index", nullable = false, unique = true)
     public String getStdIndex() {
         return stdIndex;

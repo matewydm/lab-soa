@@ -17,8 +17,7 @@ public class StudentRepository {
     private EntityManager entityManager;
 
     public void save(StudentEntity student) {
-        Session session = entityManager.unwrap(Session.class);
-        session.save(student);
+        entityManager.persist(student);
     }
 
     public void update(StudentEntity student) {

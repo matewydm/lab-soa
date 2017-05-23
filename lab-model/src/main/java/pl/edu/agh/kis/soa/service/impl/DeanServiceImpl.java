@@ -63,4 +63,14 @@ public class DeanServiceImpl implements DeanService{
     public String findStudentName(String index) {
         return studentRepository.getStudentName(index);
     }
+
+    @Override
+    public void registerStudent(String index, String firstname, String surname) {
+        Student student = new Student();
+        student.setIndexNumber(index);
+        student.setFirstName(firstname);
+        student.setSurname(surname);
+        StudentEntity studentEntity = studentMapper.jsonToEntity(student);
+        studentRepository.save(studentEntity);
+    }
 }

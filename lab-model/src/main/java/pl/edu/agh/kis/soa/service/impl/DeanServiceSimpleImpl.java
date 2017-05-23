@@ -90,6 +90,11 @@ public class DeanServiceSimpleImpl implements DeanService{
         return foundStudent.get().getFirstName();
     }
 
+    @Override
+    public void registerStudent(String index, String firstname, String surname) {
+
+    }
+
     private byte[] getFileByPath(String path) {
         File file = new File(path);
         byte[] byteArray = new byte[(int) file.length()];

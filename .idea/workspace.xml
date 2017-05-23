@@ -7,10 +7,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56bcf51e-0ab3-4ea3-886f-3d2dac36c9ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseRepository.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab-rest/src/main/webapp/register.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-ear/target/lab-ear/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/META-INF/beans.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/META-INF/persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/META-INF/sql/data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/dao/CourseRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/dao/StudentRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/db/CourseEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/db/StudentEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Course$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Course$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Course.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/DTOList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Student$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Student$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/mapper/CourseMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/mapper/StudentMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/DeanService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/MockDean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-rest/target/lab-rest/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-soap/target/lab-soap/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-soap/target/lab-soap/pl/edu/agh/kis/soa/Dean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-soap/target/lab-soap/pl/edu/agh/kis/soa/FileSender.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-soap/target/lab-soap/pl/edu/agh/kis/soa/HelloWorld.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-ear/target/lab-ear.ear" afterPath="$PROJECT_DIR$/lab-ear/target/lab-ear.ear" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-ear/target/lab-ear/lab-model.jar" afterPath="$PROJECT_DIR$/lab-ear/target/lab-ear/lab-model.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-ear/target/lab-ear/lab-rest.war" afterPath="$PROJECT_DIR$/lab-ear/target/lab-ear/lab-rest.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-ear/target/lab-ear/lab-soap.jar" afterPath="$PROJECT_DIR$/lab-ear/target/lab-ear/lab-soap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/dao/StudentRepository.class" afterPath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/dao/StudentRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/model/db/StudentEntity.class" afterPath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/model/db/StudentEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/service/DeanService.class" afterPath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/service/DeanService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.class" afterPath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.class" afterPath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/lab-model.jar" afterPath="$PROJECT_DIR$/lab-model/target/lab-model.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest-consume/target/lab-rest-consume-1.0.jar" afterPath="$PROJECT_DIR$/lab-rest-consume/target/lab-rest-consume-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/target/classes/pl/edu/agh/kis/soa/DeanRest.class" afterPath="$PROJECT_DIR$/lab-rest/target/classes/pl/edu/agh/kis/soa/DeanRest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/target/lab-rest.war" afterPath="$PROJECT_DIR$/lab-rest/target/lab-rest.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/target/lab-rest/WEB-INF/classes/pl/edu/agh/kis/soa/DeanRest.class" afterPath="$PROJECT_DIR$/lab-rest/target/lab-rest/WEB-INF/classes/pl/edu/agh/kis/soa/DeanRest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/target/lab-rest/WEB-INF/lib/lab-model-1.0.jar" afterPath="$PROJECT_DIR$/lab-rest/target/lab-rest/WEB-INF/lib/lab-model-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-soap/target/lab-soap.jar" afterPath="$PROJECT_DIR$/lab-soap/target/lab-soap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-ear/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/lab-ear/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/StudentEntity.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/StudentEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/lab-model/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest-consume/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/lab-rest-consume/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java" afterPath="$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/lab-rest/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-soap/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/lab-soap/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="lab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,6 +117,10 @@
         <option name="myItemId" value="postgresdb" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -72,25 +129,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="data.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/data.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="96" lean-forward="false" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="96" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CourseEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/CourseEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="440">
+              <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="false" />
+                <element signature="e#390#391#0" expanded="false" />
+                <element signature="e#433#434#0" expanded="false" />
+                <element signature="e#467#468#0" expanded="false" />
+                <element signature="e#550#551#0" expanded="false" />
+                <element signature="e#580#581#0" expanded="false" />
+                <element signature="e#742#743#0" expanded="false" />
+                <element signature="e#772#773#0" expanded="false" />
+                <element signature="e#816#817#0" expanded="false" />
+                <element signature="e#851#852#0" expanded="false" />
+                <element signature="e#951#952#0" expanded="false" />
+                <element signature="e#984#985#0" expanded="false" />
+                <element signature="e#1043#1044#0" expanded="false" />
+                <element signature="e#1087#1088#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -99,34 +157,66 @@
       <file leaf-file-name="StudentEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/StudentEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="-8">
+              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/StudentMapper.java">
+      <file leaf-file-name="DeanRest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1374#1375#0" expanded="true" />
+                <element signature="e#1424#1425#0" expanded="true" />
+                <element signature="e#1577#1578#0" expanded="true" />
+                <element signature="e#1636#1637#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Student.java">
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-rest/src/main/webapp/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="-359">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAXActivator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/JAXActivator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-model/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-297">
+              <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -135,13 +225,17 @@
       <file leaf-file-name="DeanServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="174">
+              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
                 <element signature="e#726#727#0" expanded="true" />
                 <element signature="e#805#806#0" expanded="true" />
                 <element signature="e#863#864#0" expanded="true" />
                 <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
                 <element signature="e#1245#1246#0" expanded="true" />
                 <element signature="e#1272#1273#0" expanded="true" />
                 <element signature="e#1553#1554#0" expanded="true" />
@@ -153,22 +247,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeanRest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java">
+      <file leaf-file-name="StudentMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/StudentMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+            <state relative-caret-position="138">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
-                <element signature="e#1340#1341#0" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="e#1543#1544#0" expanded="true" />
-                <element signature="e#1602#1603#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,8 +262,8 @@
       <file leaf-file-name="DeanService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="388">
+              <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -187,20 +272,11 @@
       <file leaf-file-name="StudentRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
-              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseRepository.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="118">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,6 +291,7 @@
         <option value="cdi.beans_1_1" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -240,7 +317,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/Collection.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/DTOCollection.java" />
         <option value="$PROJECT_DIR$/lab-soap/pom.xml" />
         <option value="$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/Consumer.java" />
@@ -266,16 +342,13 @@
         <option value="$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/ApplicationRest.java" />
         <option value="$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/JAXActivator.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/Student.java" />
-        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java" />
         <option value="$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/pl/edu/agh/kis/soa/consume/RestConsume.java" />
         <option value="$PROJECT_DIR$/lab-rest-consume/pom.xml" />
         <option value="$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/DeanRestConsume.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/persistance.xml" />
-        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Student.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/console.sql" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/CoursePK.java" />
-        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/StudentEntity.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Course.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/CourseMapper.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/StudentMapper.java" />
@@ -287,10 +360,14 @@
         <option value="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/data.sql" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/CourseEntity.java" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseRepository.java" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.java" />
+        <option value="$PROJECT_DIR$/lab-rest/src/main/webapp/register.jsp" />
         <option value="$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java" />
-        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseRepository.java" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/StudentEntity.java" />
       </list>
     </option>
   </component>
@@ -308,6 +385,30 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="lab: WAR Module" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="lab: WAR Module" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="lab" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
@@ -315,10 +416,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1366" />
     <option name="y" value="-4" />
-    <option name="width" value="1920" />
-    <option name="height" value="1084" />
+    <option name="width" value="1366" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -363,8 +463,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -630,6 +728,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab-rest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1018,6 +1142,8 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1026,7 +1152,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Course.java&#10;settin&#9;ACTION&#9;Database.Settings&#10;sett&#9;ACTION&#9;Database.Settings&#10;serve&#9;ACTION&#9;tasks.configure.servers&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins&#10;setting&#9;ACTION&#9;Database.Settings" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Pobrane/SOA-master" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1548,7 +1674,7 @@
     <configuration default="false" name="Soa" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.2.0.Final" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="lab-ear:ear">
           <settings />
@@ -1692,20 +1818,56 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100747000" />
+    <option name="totallyTimeSpent" value="102572000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36344087" sideWeight="0.5085379" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33495146" sideWeight="0.49252936" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15833333" sideWeight="0.4945055" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20151515" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0357524" sideWeight="0.50549453" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33656958" sideWeight="0.49359658" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36245954" sideWeight="0.4914621" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.302589" sideWeight="0.49573106" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19318181" sideWeight="0.5126263" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29848486" sideWeight="0.48035714" order="10" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32651514" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19318181" sideWeight="0.5126263" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19318181" sideWeight="0.5126263" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19743863" sideWeight="0.51964283" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36344087" sideWeight="0.5085379" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33655915" sideWeight="0.49252936" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1590909" sideWeight="0.4945055" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20170757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1719,25 +1881,21 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36344087" sideWeight="0.4914621" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30322582" sideWeight="0.49573106" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19318181" sideWeight="0.5126263" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19743863" sideWeight="0.48035714" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32651514" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19318181" sideWeight="0.5126263" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17022412" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19318181" sideWeight="0.5126263" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19743863" sideWeight="0.51964283" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17022412" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1751,30 +1909,48 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java</url>
-          <line>28</line>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java</url>
-          <line>53</line>
+          <line>54</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/StudentMapper.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="42" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1783,30 +1959,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/DeanPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="122" column="11" lean-forward="false" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/service/DeanServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java" />
     <entry file="file://$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/ConsumeExample.java" />
@@ -1882,15 +2034,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab-rest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/JAXActivator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="54">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <marker date="1495523323217" expanded="true" signature="3565:4010" ph="..." />
+            <marker date="1495523323217" expanded="true" signature="3632:3998" ph="..." />
+            <marker date="1495523323217" expanded="true" signature="3650:3981" ph="..." />
+            <marker date="1495523323217" expanded="true" signature="3785:3962" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1898,7 +2049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1923,7 +2073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1939,7 +2088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
           <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1987,26 +2135,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#778#779#0" expanded="false" />
-            <element signature="e#812#813#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/CoursePK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/CoursePK.java" />
     <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -2023,26 +2152,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/drop.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/drop.sql" />
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/create.sql" />
     <entry file="file://$PROJECT_DIR$/lab-model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="60" column="48" lean-forward="false" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+        <state relative-caret-position="-297">
+          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -2051,7 +2166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2059,18 +2173,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="96" lean-forward="false" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/CourseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="440">
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#433#434#0" expanded="false" />
+            <element signature="e#467#468#0" expanded="false" />
+            <element signature="e#550#551#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
+            <element signature="e#742#743#0" expanded="false" />
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#816#817#0" expanded="false" />
+            <element signature="e#851#852#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="e#984#985#0" expanded="false" />
+            <element signature="e#1043#1044#0" expanded="false" />
+            <element signature="e#1087#1088#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2079,7 +2203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2087,38 +2210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="763" column="0" lean-forward="false" selection-start-line="763" selection-start-column="0" selection-end-line="763" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/StudentEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-          <folding>
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
-            <element signature="e#1602#1603#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2126,14 +2217,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-445">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <marker date="1495523383106" expanded="false" signature="3637:3646" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/60386e6f/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/postgresdb.public.course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/60386e6f/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/postgresdb.public.student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/StudentEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/JAXActivator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/StudentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="138">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2142,13 +2303,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="174">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="e#726#727#0" expanded="true" />
             <element signature="e#805#806#0" expanded="true" />
             <element signature="e#863#864#0" expanded="true" />
             <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
             <element signature="e#1245#1246#0" expanded="true" />
             <element signature="e#1272#1273#0" expanded="true" />
             <element signature="e#1553#1554#0" expanded="true" />
@@ -2159,28 +2324,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="118">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-rest/src/main/webapp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-359">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseRepository.java">
+    <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1424#1425#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1636#1637#0" expanded="true" />
           </folding>
         </state>
       </provider>

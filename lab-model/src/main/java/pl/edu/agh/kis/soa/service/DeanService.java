@@ -21,4 +21,6 @@ public interface DeanService {
     void updateStudent(Student student);
 
     String findStudentName(String index);
+
+    void registerStudent(String index, String firstname, String surname);
 }
