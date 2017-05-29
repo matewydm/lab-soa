@@ -24,7 +24,6 @@ public class DeanPrinter {
     }
 
     public void printStudent(Student student){
-        System.out.println(student.getFirstName() + " "
-                + student.getSurname() + " : " + student.getIndexNumber());
+        System.out.println(student.getSurname() + " : " + student.getIndexNumber());
     }
 }

@@ -1,6 +1,7 @@
 package pl.edu.agh.kis.soa;
 
 
+import com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
 import pl.edu.agh.kis.soa.generated.*;
 
 import javax.xml.ws.BindingProvider;
@@ -21,17 +22,17 @@ public class StudentConsumer {
     }
 
 
-    public Student getStudentByIndex(String index) {
+    public Student getStudentByIndex(int index) {
         return dean.findStudent(index);
     }
 
-    public List<Student> getStudentsByIndexes(List<String> indexes) {
-        StringArray indexArray = new StringArray();
+    public List<Student> getStudentsByIndexes(List<Integer> indexes) {
+        IntArray indexArray = new IntArray();
         indexArray.getItem().addAll(indexes);
         return dean.getStudentsByIndexList(indexArray).getItem();
     }
 
-    public String setPicture(String index, String path) {
+    public String setPicture(Integer index, String path) {
         byte[] picture = getFileByPath(path);
         return dean.setStudentPicture(index,picture);
     }

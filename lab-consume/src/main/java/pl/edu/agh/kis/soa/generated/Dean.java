@@ -33,7 +33,7 @@ public interface Dean {
     @WebResult(name = "allStudents", partName = "allStudents")
     public StudentArray getStudentsByIndexList(
         @WebParam(name = "list", partName = "list")
-        StringArray list);
+        IntArray list);
 
     /**
      * 
@@ -45,7 +45,7 @@ public interface Dean {
     @WebResult(name = "getStudent", partName = "getStudent")
     public Student findStudent(
         @WebParam(name = "index", partName = "index")
-        String index);
+        int index);
 
     /**
      * 
@@ -57,7 +57,7 @@ public interface Dean {
     @WebResult(name = "picture", partName = "picture")
     public byte[] getStudentPicture(
         @WebParam(name = "index", partName = "index")
-        String index);
+        int index);
 
     /**
      * 
@@ -79,7 +79,7 @@ public interface Dean {
     @WebResult(name = "courses", partName = "courses")
     public String setStudentPicture(
         @WebParam(name = "index", partName = "index")
-        String index,
+        int index,
         @WebParam(name = "file", partName = "file")
         byte[] file);
 

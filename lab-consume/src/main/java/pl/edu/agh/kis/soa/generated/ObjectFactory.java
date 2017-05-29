@@ -30,22 +30,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link StudentArray }
-     * 
-     */
-    public StudentArray createStudentArray() {
-        return new StudentArray();
-    }
-
-    /**
-     * Create an instance of {@link StringArray }
-     * 
-     */
-    public StringArray createStringArray() {
-        return new StringArray();
-    }
-
-    /**
      * Create an instance of {@link Course }
      * 
      */
@@ -54,19 +38,27 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link StudentArray }
+     * 
+     */
+    public StudentArray createStudentArray() {
+        return new StudentArray();
+    }
+
+    /**
+     * Create an instance of {@link IntArray }
+     * 
+     */
+    public IntArray createIntArray() {
+        return new IntArray();
+    }
+
+    /**
      * Create an instance of {@link Student.Courses }
      * 
      */
     public Student.Courses createStudentCourses() {
         return new Student.Courses();
-    }
-
-    /**
-     * Create an instance of {@link Course.Lecturers }
-     * 
-     */
-    public Course.Lecturers createCourseLecturers() {
-        return new Course.Lecturers();
     }
 
     /**

@@ -16,16 +16,16 @@ public class SoapConsumer {
         StudentConsumer studentConsumer = new StudentConsumer();
         DeanPrinter deanPrinter = new DeanPrinter();
 
-        Student student = studentConsumer.getStudentByIndex("275789");
+        Student student = studentConsumer.getStudentByIndex(275789);
         deanPrinter.printStudent(student);
 
-        List<String> indexes = new ArrayList<>();
-        indexes.add("275789");
-        indexes.add("275757");
+        List<Integer> indexes = new ArrayList<>();
+        indexes.add(275789);
+        indexes.add(275757);
         List<Student> studentList = studentConsumer.getStudentsByIndexes(indexes);
         deanPrinter.printStudents(studentList);
 
-        String encoded = studentConsumer.setPicture("275789","/home/mucha/Obrazy/wallpaper.jpg");
+        String encoded = studentConsumer.setPicture(275789,"/home/mucha/Obrazy/wallpaper.jpg");
 
         FileConsumer fileConsumer = new FileConsumer();
         String encodedFile = fileConsumer.sendFile("/home/mucha/Obrazy/wallpaper.jpg");
