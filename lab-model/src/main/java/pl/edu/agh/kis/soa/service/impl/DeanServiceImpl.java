@@ -39,7 +39,7 @@ public class DeanServiceImpl implements DeanService{
 
     @Override
     public byte[] getStudentPicture(Integer index) {
-        return new byte[0];
+        return studentDao.getPictureByIndex(index);
     }
 
     @Override

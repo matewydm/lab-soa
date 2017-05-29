@@ -24,8 +24,7 @@ public class StudentRepository implements StudentDao, Serializable{
 
     @Override
     public void save(StudentEntity student) {
-        Session session = entityManager.unwrap(Session.class);
-        session.save(student);
+        entityManager.persist(student);
     }
 
     @Override
@@ -63,6 +62,16 @@ public class StudentRepository implements StudentDao, Serializable{
                 "student.stdIndex = :index")
                 .setInteger("index",index);
         return (String) query.uniqueResult();
+    }
+
+    @Override
+    public byte[] getPictureByIndex(Integer index) {
+        return (byte[]) entityManager
+                .createQuery("SELECT student.stdPicture FROM StudentEntity student WHERE " +
+                "student.stdIndex = :index")
+                .setParameter("index",index)
+                .getSingleResult();
+
     }
 
     public EntityManager getEntityManager() {

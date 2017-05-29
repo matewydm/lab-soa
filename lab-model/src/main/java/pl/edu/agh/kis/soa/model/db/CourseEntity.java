@@ -13,6 +13,7 @@ public class CourseEntity {
     private List<StudentEntity> crsStudent;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "crs_id", nullable = false)
     public Integer getCrsId() {
         return crsId;
@@ -43,8 +44,8 @@ public class CourseEntity {
 
     @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinTable(name = "course_student",
-            joinColumns = {@JoinColumn(name = "crs_id", nullable = false)},
-            inverseJoinColumns = {@JoinColumn(name = "std_index", nullable = false)})
+            joinColumns = {@JoinColumn(name = "crs_id", nullable = false, referencedColumnName = "crs_id")},
+            inverseJoinColumns = {@JoinColumn(name = "std_index", nullable = false, referencedColumnName = "std_index")})
     public List<StudentEntity> getCrsStudent() {
         return crsStudent;
     }

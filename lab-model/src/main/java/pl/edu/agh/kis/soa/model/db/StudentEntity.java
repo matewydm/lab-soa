@@ -1,10 +1,13 @@
 package pl.edu.agh.kis.soa.model.db;
 
 
-import org.hibernate.annotations.OnDelete;
-import org.hibernate.annotations.OnDeleteAction;
+import org.hibernate.annotations.*;
 
 import javax.persistence.*;
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.NamedQuery;
+import javax.persistence.Table;
 import java.util.List;
 
 @Entity
@@ -20,7 +23,6 @@ public class StudentEntity {
     private List<CourseEntity> courses;
 
     @Id
-    @GeneratedValue
     @Column(name = "std_index", nullable = false, unique = true)
     public Integer getStdIndex() {
         return stdIndex;
@@ -58,6 +60,7 @@ public class StudentEntity {
     }
 
     @ManyToMany(fetch = FetchType.LAZY, mappedBy = "crsStudent",cascade = CascadeType.ALL)
+    @Cascade(org.hibernate.annotations.CascadeType.ALL)
     public List<CourseEntity> getCourses() {
         return courses;
     }

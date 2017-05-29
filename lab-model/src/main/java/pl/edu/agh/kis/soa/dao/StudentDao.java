@@ -18,4 +18,6 @@ public interface StudentDao {
     StudentEntity get(Integer index);
 
     String getStudentName(Integer index);
+
+    byte[] getPictureByIndex(Integer index);
 }

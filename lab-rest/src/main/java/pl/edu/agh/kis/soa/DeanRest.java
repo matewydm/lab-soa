@@ -14,6 +14,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.Base64;
 import java.util.List;
 
 @Path("/dean")
@@ -46,6 +47,13 @@ public class DeanRest {
     @Produces(MediaType.APPLICATION_JSON)
     public Student getStudentById(@QueryParam(value = "index") Integer index){
         return deanService.findStudent(index);
+    }
+
+    @GET
+    @Path("/picture/{index}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public byte[] getPictureByIndex(@PathParam(value = "index") Integer index){
+        return deanService.getStudentPicture(index);
     }
 
     @DELETE

@@ -1,5 +1,6 @@
 package pl.edu.agh.kis.soa.consume.dean;
 
+import pl.edu.agh.kis.soa.model.json.Course;
 import pl.edu.agh.kis.soa.model.json.Student;
 
 import javax.ws.rs.client.Client;
@@ -8,6 +9,7 @@ import javax.ws.rs.client.Entity;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.Form;
 import javax.ws.rs.core.MediaType;
+import java.util.ArrayList;
 import java.util.List;
 
 public class DeanRestConsume {
@@ -51,7 +53,10 @@ public class DeanRestConsume {
         Student student = new Student();
         student.setFirstName("Dare");
         student.setSurname("Tii");
-        student.setIndexNumber(271821);
+        student.setIndexNumber(11111);
+        student.setCourses(generateCourse("AiMO",3));
+        student.setCourses(generateCourse("IO",4));
+
         client = ClientBuilder.newClient();
         WebTarget target = client.target(REST_URL);
         target.request()
@@ -67,5 +72,10 @@ public class DeanRestConsume {
         return studentList;
     }
 
-
+    public Course generateCourse(String name, Integer ects) {
+        Course course = new Course();
+        course.setName(name);
+        course.setEcts(ects);
+        return course;
+    }
 }
