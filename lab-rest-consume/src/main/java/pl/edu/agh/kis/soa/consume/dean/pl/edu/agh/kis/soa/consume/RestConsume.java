@@ -11,6 +11,7 @@ public class RestConsume {
         deanRestConsume.getStudent(275789);
         deanRestConsume.getStudentPathParam(275252);
         deanRestConsume.saveStudent();
+        deanRestConsume.saveStudentGenCourse();
         deanRestConsume.getAllStudent();
     }
 }

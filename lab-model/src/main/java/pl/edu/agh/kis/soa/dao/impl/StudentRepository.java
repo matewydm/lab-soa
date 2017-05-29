@@ -7,12 +7,14 @@ import pl.edu.agh.kis.soa.model.db.CourseEntity;
 import pl.edu.agh.kis.soa.model.db.StudentEntity;
 
 import javax.ejb.Stateful;
+import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
-@Stateful
+@Stateless
 public class StudentRepository implements StudentDao, Serializable{
 
     public StudentRepository() {
@@ -24,12 +26,19 @@ public class StudentRepository implements StudentDao, Serializable{
     @Override
     public void save(StudentEntity student) {
         Session session = entityManager.unwrap(Session.class);
+        List<CourseEntity> courseEntities = new ArrayList<>();
         for (CourseEntity course : student.getCourses()) {
-            if (course.getCrsId() == null) {
-                session.save(course);
+            CourseEntity updatedCourse = null;
+            if (course.getCrsId() != null) {
+                updatedCourse = entityManager.find(CourseEntity.class,course.getCrsId());
+                courseEntities.add(updatedCourse);
+            } else {
+                entityManager.persist(course);
+                courseEntities.add(course);
             }
         }
-        session.saveOrUpdate(student);
+        student.setCourses(courseEntities);
+        entityManager.persist(student);
     }
 
     @Override

@@ -1,5 +1,7 @@
 package pl.edu.agh.kis.soa.model.db;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -13,7 +15,8 @@ public class CourseEntity {
     private List<StudentEntity> crsStudent;
 
     @Id
-    @GeneratedValue
+    @GenericGenerator(name = "kaugen", strategy = "increment")
+    @GeneratedValue(generator = "kaugen")
     @Column(name = "crs_id", nullable = false)
     public Integer getCrsId() {
         return crsId;
@@ -42,10 +45,19 @@ public class CourseEntity {
     }
 
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER,
+                cascade = {
+                    CascadeType.DETACH,
+                    CascadeType.MERGE,
+                    CascadeType.REFRESH,
+                    CascadeType.PERSIST
+                },
+                targetEntity = StudentEntity.class)
     @JoinTable(name = "course_student",
-            joinColumns = {@JoinColumn(name = "crs_id", referencedColumnName = "crs_id")},
-            inverseJoinColumns = {@JoinColumn(name = "std_index", referencedColumnName = "std_index")})
+            joinColumns = @JoinColumn(name = "crs_id", referencedColumnName = "crs_id"),
+            inverseJoinColumns = @JoinColumn(name = "std_index", referencedColumnName = "std_index"),
+            foreignKey = @ForeignKey(ConstraintMode.CONSTRAINT),
+            inverseForeignKey = @ForeignKey(ConstraintMode.CONSTRAINT))
     public List<StudentEntity> getCrsStudent() {
         return crsStudent;
     }

@@ -15,7 +15,7 @@ import javax.persistence.PersistenceContextType;
 import javax.transaction.Transactional;
 import java.io.Serializable;
 
-@Stateful
+@Stateless
 public class CourseRepository implements CourseDao,Serializable {
 
     public CourseRepository() {

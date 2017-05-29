@@ -14,8 +14,6 @@
                       value="META-INF/sql/data.sql" />
             <property name="hibernate.enable_lazy_load_no_trans"
                       value="true" />
-            <property name="hibernate.dialect"
-                      value="org.hibernate.dialect.PostgreSQLDialect" />
         </properties>
 
     </persistence-unit>

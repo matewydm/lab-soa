@@ -6,6 +6,7 @@ import org.hibernate.annotations.*;
 import javax.persistence.*;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.ForeignKey;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 import java.util.List;
@@ -59,7 +60,19 @@ public class StudentEntity {
         this.stdPicture = picture;
     }
 
-    @ManyToMany(mappedBy = "crsStudent")
+    @ManyToMany(fetch = FetchType.LAZY,
+            cascade = {
+                    CascadeType.DETACH,
+                    CascadeType.MERGE,
+                    CascadeType.REFRESH,
+                    CascadeType.PERSIST
+            },
+            targetEntity = CourseEntity.class)
+    @JoinTable(name = "course_student",
+            joinColumns = @JoinColumn(name = "std_index", referencedColumnName = "std_index"),
+            inverseJoinColumns = @JoinColumn(name = "crs_id", referencedColumnName = "crs_id"),
+            foreignKey = @ForeignKey(ConstraintMode.CONSTRAINT),
+            inverseForeignKey = @ForeignKey(ConstraintMode.CONSTRAINT))
     public List<CourseEntity> getCourses() {
         return courses;
     }

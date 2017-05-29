@@ -64,6 +64,21 @@ public class DeanRestConsume {
         client.close();
     }
 
+    public void saveStudentGenCourse() {
+        Student student = new Student();
+        student.setFirstName("Dare");
+        student.setSurname("Tii");
+        student.setIndexNumber(112);
+        student.setCourses(generateCourse("AiMO",5));
+        student.setCourses(generateCourse("IO",4));
+
+        client = ClientBuilder.newClient();
+        WebTarget target = client.target(REST_URL);
+        target.request()
+                .post(Entity.json(student),Student.class);
+        client.close();
+    }
+
     public List<Student> getAllStudent() {
 
         client = ClientBuilder.newClient();
