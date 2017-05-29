@@ -10,11 +10,11 @@ http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
         <properties>
 
             <property name="hibernate.hbm2ddl.auto"
-                      value="true"/>
-            <property name="javax.persistence.schema-generation.database.action"
-                      value="none"/>
+                      value="create-drop"/>
             <property name="javax.persistence.sql-load-script-source"
                       value="META-INF/sql/data.sql" />
+            <property name="hibernate.enable_lazy_load_no_trans"
+                      value="true" />
             <property name="hibernate.dialect"
                       value="org.hibernate.dialect.PostgreSQLDialect" />
         </properties>

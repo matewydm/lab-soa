@@ -7,62 +7,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56bcf51e-0ab3-4ea3-886f-3d2dac36c9ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab-rest/src/main/webapp/register.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-ear/target/lab-ear/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/META-INF/beans.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/META-INF/persistence.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/META-INF/sql/data.sql" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_2_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jsr173_api_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_james_apache_mime4j_0_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_jaxrs_api_3_0_12_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_client_3_1_2_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jackson_provider_3_1_2_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxb_provider_3_1_2_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_3_1_2_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_services_3_1_2_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_multipart_provider_3_1_2_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ws_rs_jboss_jaxrs_api_2_0_spec_1_0_1_Beta1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/StudentForm.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/dao/CourseRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/dao/StudentRepository.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/dao/CourseRepository.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/dao/StudentRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/db/CourseEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/db/StudentEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Course$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Course$Builder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Course.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/DTOList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Student$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Student$Builder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Student.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/mapper/CourseMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/mapper/StudentMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/DeanService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/MockDean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-rest/target/lab-rest/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-soap/target/lab-soap/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-soap/target/lab-soap/pl/edu/agh/kis/soa/Dean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-soap/target/lab-soap/pl/edu/agh/kis/soa/FileSender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab-soap/target/lab-soap/pl/edu/agh/kis/soa/HelloWorld.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseRepository.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/impl/CourseRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/impl/StudentRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata.keystream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata.keystream.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata_i" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/_metadata_/metadata_i.len" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-ear/target/lab-ear.ear" afterPath="$PROJECT_DIR$/lab-ear/target/lab-ear.ear" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-ear/target/lab-ear/lab-model.jar" afterPath="$PROJECT_DIR$/lab-ear/target/lab-ear/lab-model.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-ear/target/lab-ear/lab-rest.war" afterPath="$PROJECT_DIR$/lab-ear/target/lab-ear/lab-rest.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-ear/target/lab-ear/lab-soap.jar" afterPath="$PROJECT_DIR$/lab-ear/target/lab-ear/lab-soap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/dao/StudentRepository.class" afterPath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/dao/StudentRepository.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/model/db/StudentEntity.class" afterPath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/model/db/StudentEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/model/json/Student$Builder.class" afterPath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/model/json/Student$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/model/json/Student.class" afterPath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/model/json/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/model/mapper/StudentMapper.class" afterPath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/model/mapper/StudentMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/service/DeanService.class" afterPath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/service/DeanService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.class" afterPath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.class" afterPath="$PROJECT_DIR$/lab-model/target/classes/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/lab-model.jar" afterPath="$PROJECT_DIR$/lab-model/target/lab-model.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/db/StudentEntity.class" afterPath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/db/StudentEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Student$Builder.class" afterPath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Student$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Student.class" afterPath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/json/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/mapper/StudentMapper.class" afterPath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/model/mapper/StudentMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/DeanService.class" afterPath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/DeanService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.class" afterPath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.class" afterPath="$PROJECT_DIR$/lab-model/target/lab-model/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest-consume/target/classes/pl/edu/agh/kis/soa/consume/dean/DeanRestConsume.class" afterPath="$PROJECT_DIR$/lab-rest-consume/target/classes/pl/edu/agh/kis/soa/consume/dean/DeanRestConsume.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest-consume/target/classes/pl/edu/agh/kis/soa/consume/dean/pl/edu/agh/kis/soa/consume/RestConsume.class" afterPath="$PROJECT_DIR$/lab-rest-consume/target/classes/pl/edu/agh/kis/soa/consume/dean/pl/edu/agh/kis/soa/consume/RestConsume.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest-consume/target/lab-rest-consume-1.0.jar" afterPath="$PROJECT_DIR$/lab-rest-consume/target/lab-rest-consume-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/target/classes/pl/edu/agh/kis/soa/DeanRest.class" afterPath="$PROJECT_DIR$/lab-rest/target/classes/pl/edu/agh/kis/soa/DeanRest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/target/lab-rest.war" afterPath="$PROJECT_DIR$/lab-rest/target/lab-rest.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/target/lab-rest/WEB-INF/classes/pl/edu/agh/kis/soa/DeanRest.class" afterPath="$PROJECT_DIR$/lab-rest/target/lab-rest/WEB-INF/classes/pl/edu/agh/kis/soa/DeanRest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/target/lab-rest/WEB-INF/lib/lab-model-1.0.jar" afterPath="$PROJECT_DIR$/lab-rest/target/lab-rest/WEB-INF/lib/lab-model-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-soap/target/classes/pl/edu/agh/kis/soa/Dean.class" afterPath="$PROJECT_DIR$/lab-soap/target/classes/pl/edu/agh/kis/soa/Dean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-soap/target/classes/pl/edu/agh/kis/soa/HelloWorld.class" afterPath="$PROJECT_DIR$/lab-soap/target/classes/pl/edu/agh/kis/soa/HelloWorld.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-soap/target/lab-soap.jar" afterPath="$PROJECT_DIR$/lab-soap/target/lab-soap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-soap/target/lab-soap/pl/edu/agh/kis/soa/Dean.class" afterPath="$PROJECT_DIR$/lab-soap/target/lab-soap/pl/edu/agh/kis/soa/Dean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-soap/target/lab-soap/pl/edu/agh/kis/soa/HelloWorld.class" afterPath="$PROJECT_DIR$/lab-soap/target/lab-soap/pl/edu/agh/kis/soa/HelloWorld.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/lab_ear_ear_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/lab_ear_ear_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-ear/lab-ear.iml" afterPath="$PROJECT_DIR$/lab-ear/lab-ear.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-ear/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/lab-ear/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/lab-model.iml" afterPath="$PROJECT_DIR$/lab-model/lab-model.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/pom.xml" afterPath="$PROJECT_DIR$/lab-model/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/StudentEntity.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/StudentEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Student.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Student.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.java" afterPath="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/data.sql" afterPath="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/data.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/lab-model/target/classes/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/classes/META-INF/sql/data.sql" afterPath="$PROJECT_DIR$/lab-model/target/classes/META-INF/sql/data.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/lab-model/target/lab-model/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/lab-model/META-INF/sql/data.sql" afterPath="$PROJECT_DIR$/lab-model/target/lab-model/META-INF/sql/data.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/lab-model/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/lab-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/lab-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest-consume/lab-rest-consume.iml" afterPath="$PROJECT_DIR$/lab-rest-consume/lab-rest-consume.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest-consume/pom.xml" afterPath="$PROJECT_DIR$/lab-rest-consume/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/DeanRestConsume.java" afterPath="$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/DeanRestConsume.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/pl/edu/agh/kis/soa/consume/RestConsume.java" afterPath="$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/pl/edu/agh/kis/soa/consume/RestConsume.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest-consume/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/lab-rest-consume/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/lab-rest.iml" afterPath="$PROJECT_DIR$/lab-rest/lab-rest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/pom.xml" afterPath="$PROJECT_DIR$/lab-rest/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java" afterPath="$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-rest/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/lab-rest/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-soap/lab-soap.iml" afterPath="$PROJECT_DIR$/lab-soap/lab-soap.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/Dean.java" afterPath="$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/Dean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/HelloWorld.java" afterPath="$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/HelloWorld.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-soap/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/lab-soap/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="lab.iws" />
@@ -117,10 +166,6 @@
         <option name="myItemId" value="postgresdb" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="public" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -129,26 +174,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CourseEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/CourseEntity.java">
+      <file leaf-file-name="DeanRest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="780">
+              <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
               <folding>
-                <element signature="e#362#363#0" expanded="false" />
-                <element signature="e#390#391#0" expanded="false" />
-                <element signature="e#433#434#0" expanded="false" />
-                <element signature="e#467#468#0" expanded="false" />
-                <element signature="e#550#551#0" expanded="false" />
-                <element signature="e#580#581#0" expanded="false" />
-                <element signature="e#742#743#0" expanded="false" />
-                <element signature="e#772#773#0" expanded="false" />
-                <element signature="e#816#817#0" expanded="false" />
-                <element signature="e#851#852#0" expanded="false" />
-                <element signature="e#951#952#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#768#769#0" expanded="false" />
+                <element signature="e#821#822#0" expanded="false" />
+                <element signature="e#927#928#0" expanded="false" />
                 <element signature="e#984#985#0" expanded="false" />
-                <element signature="e#1043#1044#0" expanded="false" />
-                <element signature="e#1087#1088#0" expanded="false" />
+                <element signature="e#1093#1094#0" expanded="false" />
+                <element signature="e#1143#1144#0" expanded="false" />
+                <element signature="e#1428#1429#0" expanded="false" />
+                <element signature="e#1476#1477#0" expanded="false" />
+                <element signature="e#1576#1577#0" expanded="false" />
+                <element signature="e#1626#1627#0" expanded="false" />
+                <element signature="e#1725#1726#0" expanded="false" />
+                <element signature="e#1773#1774#0" expanded="false" />
+                <element signature="e#1927#1928#0" expanded="false" />
+                <element signature="e#1986#1987#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeanServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+              <folding>
+                <element signature="e#864#865#0" expanded="false" />
+                <element signature="e#942#943#0" expanded="false" />
+                <element signature="e#1032#1033#0" expanded="false" />
+                <element signature="e#1059#1060#0" expanded="false" />
+                <element signature="e#1127#1128#0" expanded="false" />
+                <element signature="e#1161#1162#0" expanded="false" />
+                <element signature="e#1242#1243#0" expanded="false" />
+                <element signature="e#1269#1270#0" expanded="false" />
+                <element signature="e#1544#1545#0" expanded="false" />
+                <element signature="e#1614#1615#0" expanded="false" />
+                <element signature="e#1680#1681#0" expanded="false" />
+                <element signature="e#1735#1736#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeanRestConsume.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/DeanRestConsume.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1180">
+              <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/impl/StudentRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#1176#1177#0" expanded="false" />
+                <element signature="e#1262#1263#0" expanded="false" />
+                <element signature="e#1887#1888#0" expanded="false" />
+                <element signature="e#1923#1924#0" expanded="false" />
+                <element signature="e#1988#1989#0" expanded="false" />
+                <element signature="e#2038#2039#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -157,104 +255,51 @@
       <file leaf-file-name="StudentEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/StudentEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            <state relative-caret-position="360">
+              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#527#528#0" expanded="false" />
+                <element signature="e#558#559#0" expanded="false" />
+                <element signature="e#610#611#0" expanded="false" />
+                <element signature="e#653#654#0" expanded="false" />
+                <element signature="e#728#729#0" expanded="false" />
+                <element signature="e#763#764#0" expanded="false" />
+                <element signature="e#816#817#0" expanded="false" />
+                <element signature="e#861#862#0" expanded="false" />
+                <element signature="e#932#933#0" expanded="false" />
+                <element signature="e#965#966#0" expanded="false" />
+                <element signature="e#1014#1015#0" expanded="false" />
+                <element signature="e#1055#1056#0" expanded="false" />
+                <element signature="e#1126#1127#0" expanded="false" />
+                <element signature="e#1159#1160#0" expanded="false" />
+                <element signature="e#1208#1209#0" expanded="false" />
+                <element signature="e#1249#1250#0" expanded="false" />
+                <element signature="e#1335#1336#0" expanded="false" />
+                <element signature="e#1365#1366#0" expanded="false" />
+                <element signature="e#1423#1424#0" expanded="false" />
+                <element signature="e#1461#1462#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeanRest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java">
+      <file leaf-file-name="data.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/data.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
-                <element signature="e#1274#1275#0" expanded="true" />
-                <element signature="e#1374#1375#0" expanded="true" />
-                <element signature="e#1424#1425#0" expanded="true" />
-                <element signature="e#1577#1578#0" expanded="true" />
-                <element signature="e#1636#1637#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-rest/src/main/webapp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-359">
-              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="140">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAXActivator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/JAXActivator.java">
+      <file leaf-file-name="RestConsume.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/pl/edu/agh/kis/soa/consume/RestConsume.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="260">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-model/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-297">
-              <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeanServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding>
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-                <element signature="e#1131#1132#0" expanded="true" />
-                <element signature="e#1165#1166#0" expanded="true" />
-                <element signature="e#1245#1246#0" expanded="true" />
-                <element signature="e#1272#1273#0" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
-                <element signature="e#1630#1631#0" expanded="true" />
-                <element signature="e#1695#1696#0" expanded="true" />
-                <element signature="e#1757#1758#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/StudentMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -262,21 +307,24 @@
       <file leaf-file-name="DeanService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="80">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java">
+      <file leaf-file-name="DeanServiceSimpleImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="1760">
+              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#829#830#0" expanded="false" />
+                <element signature="e#863#864#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -287,11 +335,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="cdi.beans_1_1" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -304,6 +352,7 @@
       <find>getStudentsByIndexList</find>
       <find>public.</find>
       <find>all</find>
+      <find>inde</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -317,13 +366,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/DTOCollection.java" />
-        <option value="$PROJECT_DIR$/lab-soap/pom.xml" />
-        <option value="$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/Consumer.java" />
-        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/DTOList.java" />
-        <option value="$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/HelloWorldConsumer.java" />
-        <option value="$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/generated/Student.java" />
-        <option value="$PROJECT_DIR$/lab-consume/pom.xml" />
         <option value="$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/DeanPrinter.java" />
         <option value="$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/generated/DeanService.java" />
         <option value="$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/FIleConsumer.java" />
@@ -334,19 +376,13 @@
         <option value="$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java" />
         <option value="$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/ConsumeExample.java" />
         <option value="$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/FileSender.java" />
-        <option value="$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/HelloWorld.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/Dean.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/MockDean.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/MockDean.java" />
         <option value="$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/ApplicationRest.java" />
         <option value="$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/JAXActivator.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/Student.java" />
-        <option value="$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/pl/edu/agh/kis/soa/consume/RestConsume.java" />
-        <option value="$PROJECT_DIR$/lab-rest-consume/pom.xml" />
-        <option value="$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/DeanRestConsume.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/persistance.xml" />
-        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Student.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/console.sql" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/CoursePK.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Course.java" />
@@ -356,18 +392,31 @@
         <option value="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/drop.sql" />
         <option value="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/create.sql" />
         <option value="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/create.sql" />
-        <option value="$PROJECT_DIR$/lab-model/pom.xml" />
-        <option value="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/data.sql" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/CourseEntity.java" />
-        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseRepository.java" />
-        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.java" />
         <option value="$PROJECT_DIR$/lab-rest/src/main/webapp/register.jsp" />
+        <option value="$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/StudentForm.java" />
+        <option value="$PROJECT_DIR$/lab-model/pom.xml" />
+        <option value="$PROJECT_DIR$/lab-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/StudentForm.java" />
+        <option value="$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/Dean.java" />
+        <option value="$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseRepository.java" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseDao.java" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/impl/CourseRepository.java" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/data.sql" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/lab-rest-consume/pom.xml" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Student.java" />
         <option value="$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.java" />
+        <option value="$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/DeanRestConsume.java" />
+        <option value="$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/pl/edu/agh/kis/soa/consume/RestConsume.java" />
         <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/StudentEntity.java" />
+        <option value="$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/impl/StudentRepository.java" />
       </list>
     </option>
   </component>
@@ -416,9 +465,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-4" />
-    <option name="width" value="1366" />
-    <option name="height" value="772" />
+    <option name="x" value="1365" />
+    <option name="y" value="-11" />
+    <option name="width" value="1922" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -463,6 +513,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -526,6 +577,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab-soap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -687,116 +764,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab-rest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab-rest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab-rest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab-rest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab-rest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lab-model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -934,48 +901,6 @@
               <option name="myItemId" value="soa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1008,48 +933,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1101,48 +984,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab-consume" />
+              <option name="myItemId" value="lab-ear" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1150,9 +998,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Course.java&#10;settin&#9;ACTION&#9;Database.Settings&#10;sett&#9;ACTION&#9;Database.Settings&#10;serve&#9;ACTION&#9;tasks.configure.servers&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins&#10;setting&#9;ACTION&#9;Database.Settings" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Pobrane/SOA-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1164,17 +1012,18 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql" />
-      <recent name="$PROJECT_DIR$/lab-model/src/main/resources/META-INF" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.edu.agh.kis.soa.model.json" />
+      <recent name="pl.edu.agh.kis.soa.model.mapper" />
+      <recent name="pl.edu.agh.kis.soa.service.impl" />
+      <recent name="pl.edu.agh.kis.soa" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pl.edu.agh.kis.soa" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pl.edu.agh.kis.soa.model.mapper" />
-      <recent name="pl.edu.agh.kis.soa.service.impl" />
-      <recent name="pl.edu.agh.kis.soa" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql" />
+      <recent name="$PROJECT_DIR$/lab-model/src/main/resources/META-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1674,7 +1523,7 @@
     <configuration default="false" name="Soa" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.2.0.Final" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="lab-ear:ear">
           <settings />
@@ -1814,88 +1663,63 @@
       <workItem from="1495358022237" duration="7491000" />
       <workItem from="1495472156081" duration="3807000" />
       <workItem from="1495477869141" duration="10571000" />
+      <workItem from="1495525921321" duration="4050000" />
+      <workItem from="1495550261980" duration="1527000" />
+      <workItem from="1495573855788" duration="2194000" />
+      <workItem from="1495649804423" duration="94000" />
+      <workItem from="1495989122869" duration="7000" />
+      <workItem from="1495989193046" duration="13855000" />
+      <workItem from="1496072378891" duration="1000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102572000" />
+    <option name="totallyTimeSpent" value="124843000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <frame x="1365" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36344087" sideWeight="0.5085379" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33495146" sideWeight="0.49252936" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15833333" sideWeight="0.4945055" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3344086" sideWeight="0.49252936" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1590909" sideWeight="0.4945055" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20151515" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22251868" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0357524" sideWeight="0.50549453" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33656958" sideWeight="0.49359658" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36989248" sideWeight="0.49359658" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36245954" sideWeight="0.4914621" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.302589" sideWeight="0.49573106" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3623656" sideWeight="0.4914621" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30215055" sideWeight="0.49573106" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19318181" sideWeight="0.5126263" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29848486" sideWeight="0.48035714" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32651514" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2171825" sideWeight="0.4688027" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19318181" sideWeight="0.5126263" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19318181" sideWeight="0.5126263" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19743863" sideWeight="0.51964283" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21824974" sideWeight="0.52903223" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21824974" sideWeight="0.5311973" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36344087" sideWeight="0.5085379" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33655915" sideWeight="0.49252936" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1590909" sideWeight="0.4945055" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20170757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0357524" sideWeight="0.50549453" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39784947" sideWeight="0.49359658" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32580644" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36344087" sideWeight="0.4914621" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30322582" sideWeight="0.49573106" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19318181" sideWeight="0.5126263" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19743863" sideWeight="0.48035714" order="10" side_tool="false" content_ui="combo" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32651514" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19318181" sideWeight="0.5126263" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17022412" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19318181" sideWeight="0.5126263" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19743863" sideWeight="0.51964283" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1908,49 +1732,25 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/DeanRestConsume.java</url>
+          <line>25</line>
           <properties />
-          <option name="timeStamp" value="35" />
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java</url>
-          <line>54</line>
+          <url>file://$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/DeanRestConsume.java</url>
+          <line>36</line>
           <properties />
-          <option name="timeStamp" value="41" />
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/StudentMapper.java</url>
-          <line>31</line>
+          <url>file://$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/DeanRestConsume.java</url>
+          <line>46</line>
           <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="54" />
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="73" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1959,58 +1759,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/service/DeanServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java" />
-    <entry file="file://$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/ConsumeExample.java" />
-    <entry file="file://$PROJECT_DIR$/lab-ear/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-823">
-          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/HelloWorldConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/Authorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="78" lean-forward="true" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/StudentConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/SoapConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-rest/src/main/webapp/WEB-INF/templates/default.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab-rest/src/main/webapp/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2018,79 +1766,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/MockDean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-soap/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-rest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding>
-            <marker date="1495523323217" expanded="true" signature="3565:4010" ph="..." />
-            <marker date="1495523323217" expanded="true" signature="3632:3998" ph="..." />
-            <marker date="1495523323217" expanded="true" signature="3650:3981" ph="..." />
-            <marker date="1495523323217" expanded="true" signature="3785:3962" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/FileSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/labrestconsume/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-consume/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/pl/edu/agh/kis/soa/consume/RestConsume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-rest-consume/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/DeanRestConsume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/DTOList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -2102,21 +1778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/Dean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1052#1053#0" expanded="false" />
-            <element signature="e#1105#1106#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1270#1271#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2140,65 +1801,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/CourseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/drop.sql" />
     <entry file="file://$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/create.sql" />
-    <entry file="file://$PROJECT_DIR$/lab-model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="96" lean-forward="false" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/CourseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="e#362#363#0" expanded="false" />
-            <element signature="e#390#391#0" expanded="false" />
-            <element signature="e#433#434#0" expanded="false" />
-            <element signature="e#467#468#0" expanded="false" />
-            <element signature="e#550#551#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#772#773#0" expanded="false" />
-            <element signature="e#816#817#0" expanded="false" />
-            <element signature="e#851#852#0" expanded="false" />
-            <element signature="e#951#952#0" expanded="false" />
-            <element signature="e#984#985#0" expanded="false" />
-            <element signature="e#1043#1044#0" expanded="false" />
-            <element signature="e#1087#1088#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-jaxrs/3.0.1.Final/resteasy-jaxrs-3.0.1.Final.jar!/org/jboss/resteasy/core/MethodInjectorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -2213,154 +1820,353 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Student.java">
+    <entry file="file://$PROJECT_DIR$/lab-rest/src/main/webapp/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="80">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseRepository.java">
+    <entry file="file://$PROJECT_DIR$/lab-model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="111" column="21" lean-forward="false" selection-start-line="111" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-rest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="97" column="26" lean-forward="false" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/sun/nio/ch/EPollArrayWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="225" column="23" lean-forward="false" selection-start-line="225" selection-start-column="23" selection-end-line="225" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/StudentForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/CourseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/MockDean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/FileSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/Dean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/DeanPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/StudentConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/generated/DeanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-consume/src/main/java/pl/edu/agh/kis/soa/generated/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1057">
+          <caret line="254" column="29" lean-forward="false" selection-start-line="254" selection-start-column="29" selection-end-line="254" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-consume/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/JAXActivator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-ear/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/impl/CourseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-soap/src/main/java/pl/edu/agh/kis/soa/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-soap/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="110" column="29" lean-forward="false" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/CourseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/60386e6f/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/postgresdb.public.course">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-rest-consume/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/60386e6f/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/postgresdb.public.student">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="e#864#865#0" expanded="false" />
+            <element signature="e#942#943#0" expanded="false" />
+            <element signature="e#1032#1033#0" expanded="false" />
+            <element signature="e#1059#1060#0" expanded="false" />
+            <element signature="e#1127#1128#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1242#1243#0" expanded="false" />
+            <element signature="e#1269#1270#0" expanded="false" />
+            <element signature="e#1544#1545#0" expanded="false" />
+            <element signature="e#1614#1615#0" expanded="false" />
+            <element signature="e#1680#1681#0" expanded="false" />
+            <element signature="e#1735#1736#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#768#769#0" expanded="false" />
+            <element signature="e#821#822#0" expanded="false" />
+            <element signature="e#927#928#0" expanded="false" />
+            <element signature="e#984#985#0" expanded="false" />
+            <element signature="e#1093#1094#0" expanded="false" />
+            <element signature="e#1143#1144#0" expanded="false" />
+            <element signature="e#1428#1429#0" expanded="false" />
+            <element signature="e#1476#1477#0" expanded="false" />
+            <element signature="e#1576#1577#0" expanded="false" />
+            <element signature="e#1626#1627#0" expanded="false" />
+            <element signature="e#1725#1726#0" expanded="false" />
+            <element signature="e#1773#1774#0" expanded="false" />
+            <element signature="e#1927#1928#0" expanded="false" />
+            <element signature="e#1986#1987#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state relative-caret-position="1760">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding>
-            <marker date="1495523383106" expanded="false" signature="3637:3646" ph="&lt;~&gt;" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#863#864#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/60386e6f/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/postgresdb.public.course">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/pl/edu/agh/kis/soa/consume/RestConsume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/60386e6f/c658ca4a-2fbb-4bf0-a301-227f27d5a5ff/postgresdb.public.student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/resources/META-INF/sql/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="80">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-rest-consume/src/main/java/pl/edu/agh/kis/soa/consume/dean/DeanRestConsume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/StudentEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        <state relative-caret-position="360">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#610#611#0" expanded="false" />
+            <element signature="e#653#654#0" expanded="false" />
+            <element signature="e#728#729#0" expanded="false" />
+            <element signature="e#763#764#0" expanded="false" />
+            <element signature="e#816#817#0" expanded="false" />
+            <element signature="e#861#862#0" expanded="false" />
+            <element signature="e#932#933#0" expanded="false" />
+            <element signature="e#965#966#0" expanded="false" />
+            <element signature="e#1014#1015#0" expanded="false" />
+            <element signature="e#1055#1056#0" expanded="false" />
+            <element signature="e#1126#1127#0" expanded="false" />
+            <element signature="e#1159#1160#0" expanded="false" />
+            <element signature="e#1208#1209#0" expanded="false" />
+            <element signature="e#1249#1250#0" expanded="false" />
+            <element signature="e#1335#1336#0" expanded="false" />
+            <element signature="e#1365#1366#0" expanded="false" />
+            <element signature="e#1423#1424#0" expanded="false" />
+            <element signature="e#1461#1462#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/JAXActivator.java">
+    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/impl/StudentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="20">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <element signature="e#1630#1631#0" expanded="true" />
-            <element signature="e#1695#1696#0" expanded="true" />
-            <element signature="e#1757#1758#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-rest/src/main/webapp/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-359">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-rest/src/main/java/pl/edu/agh/kis/soa/DeanRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-            <element signature="e#1577#1578#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="false" />
+            <element signature="e#1262#1263#0" expanded="false" />
+            <element signature="e#1887#1888#0" expanded="false" />
+            <element signature="e#1923#1924#0" expanded="false" />
+            <element signature="e#1988#1989#0" expanded="false" />
+            <element signature="e#2038#2039#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -13,6 +13,7 @@ import javax.jws.WebService;
 @WebService
 public class HelloWorld {
 
+
     @WebMethod
     @PermitAll
     public String hello(String name) {

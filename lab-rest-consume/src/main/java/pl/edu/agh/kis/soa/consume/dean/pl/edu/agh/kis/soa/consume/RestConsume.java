@@ -6,6 +6,11 @@ public class RestConsume {
 
     public static void main(String[] args) {
         DeanRestConsume deanRestConsume = new DeanRestConsume();
-        deanRestConsume.getStudentName("275789");
+        deanRestConsume.getStudent(275789);
+        deanRestConsume.deleteStudent(275789);
+        deanRestConsume.getStudent(275789);
+        deanRestConsume.getStudentPathParam(275252);
+        deanRestConsume.saveStudent();
+        deanRestConsume.getAllStudent();
     }
 }

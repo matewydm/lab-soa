@@ -32,7 +32,7 @@ public class Dean {
 
     @WebMethod(action = "findStudent")
     @WebResult(name = "getStudent")
-    public Student findStudent(@WebParam(name = "index") String index) {
+    public Student findStudent(@WebParam(name = "index") Integer index) {
         return deanService.findStudent(index);
     }
 
@@ -45,21 +45,21 @@ public class Dean {
     @WebMethod(action = "getAll")
     @WebResult(name = "allStudents")
     @PermitAll
-    public List<Student> getStudentsByIndexList(@WebParam(name = "list") List<String> indexList) {
+    public List<Student> getStudentsByIndexList(@WebParam(name = "list") List<Integer> indexList) {
         return deanService.getStudentsByIndexList(indexList);
     }
 
     @WebMethod(action = "getPicture")
     @WebResult(name = "picture")
     @PermitAll
-    public byte[] getStudentPicture(@WebParam(name = "index") String index) {
+    public byte[] getStudentPicture(@WebParam(name = "index") Integer index) {
         return deanService.getStudentPicture(index);
     }
 
     @WebMethod(action = "getCourses")
     @WebResult(name = "courses")
     @PermitAll
-    public String setStudentPicture(@WebParam(name = "index") String index,@WebParam(name = "file") byte[] file) {
+    public String setStudentPicture(@WebParam(name = "index") Integer index,@WebParam(name = "file") byte[] file) {
         return deanService.setStudentPicture(index,file);
     }
 

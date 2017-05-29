@@ -1,12 +1,17 @@
 package pl.edu.agh.kis.soa;
 
 
+import org.jboss.resteasy.annotations.providers.multipart.MultipartForm;
+import org.jboss.resteasy.spi.HttpRequest;
 import pl.edu.agh.kis.soa.model.json.Student;
+import pl.edu.agh.kis.soa.model.json.StudentForm;
 import pl.edu.agh.kis.soa.service.DeanService;
 import pl.edu.agh.kis.soa.service.MockDean;
 
 import javax.inject.Inject;
+import javax.validation.Valid;
 import javax.ws.rs.*;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.List;
@@ -20,13 +25,13 @@ public class DeanRest {
     @GET
     @Path("/{index}")
     @Produces(MediaType.APPLICATION_JSON)
-    public Student getStudent(@PathParam("index") String index){
+    public Student getStudent(@PathParam("index") Integer index){
         return deanService.findStudent(index);
     }
 
     @GET
     @Path("/name/{index}")
-    public String getStudentName(@PathParam("index") String index){
+    public String getStudentName(@PathParam("index") Integer index){
         return deanService.findStudentName(index);
     }
 
@@ -37,15 +42,15 @@ public class DeanRest {
         return deanService.getAllStudent();
     }
 
-    @POST
+    @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public List<Student> getStudent(@QueryParam(value = "indexList") List<String> indexList){
-        return deanService.getStudentsByIndexList(indexList);
+    public Student getStudentById(@QueryParam(value = "index") Integer index){
+        return deanService.findStudent(index);
     }
 
     @DELETE
     @Path("/{index}")
-    public void deleteStudent(@PathParam("index") String index){
+    public void deleteStudent(@PathParam("index") Integer index){
         deanService.deleteStudent(index);
     }
 
@@ -55,10 +60,16 @@ public class DeanRest {
         deanService.updateStudent(student);
     }
 
+    @POST
+    @Consumes(MediaType.APPLICATION_JSON)
+    public void saveStudent(Student student){
+        deanService.saveStudent(student);
+    }
+
     @GET
     @Path("/picture/{index}")
     @Consumes(MediaType.APPLICATION_JSON)
-    public byte[] getStudentPicture(@PathParam("index") String index){
+    public byte[] getStudentPicture(@PathParam("index") Integer index){
         return deanService.getStudentPicture(index);
     }
 
@@ -66,11 +77,10 @@ public class DeanRest {
     @Path("/register")
     @Consumes(MediaType.MULTIPART_FORM_DATA)
     @Produces(MediaType.APPLICATION_JSON)
-    public Response registerStudent(@FormParam("index") String index,
-                                    @FormParam("firstname") String firstname,
-                                    @FormParam("surname") String surname) {
+    public Response registerStudent(@Valid @MultipartForm StudentForm studentForm,
+                                    @Context HttpRequest request) {
 
-        deanService.registerStudent(index,firstname,surname);
+        deanService.registerStudent(studentForm);
         return Response.ok().build();
     }
 }

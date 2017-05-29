@@ -1,26 +1,29 @@
 package pl.edu.agh.kis.soa.service;
 
 import pl.edu.agh.kis.soa.model.json.Student;
+import pl.edu.agh.kis.soa.model.json.StudentForm;
 
 import java.util.List;
 
 public interface DeanService {
 
-    Student findStudent(String index);
+    Student findStudent(Integer index);
 
     List<Student> getAllStudent();
 
-    List<Student> getStudentsByIndexList(List<String> indexList);
+    List<Student> getStudentsByIndexList(List<Integer> indexList);
 
-    byte[] getStudentPicture(String index);
+    byte[] getStudentPicture(Integer index);
 
-    String setStudentPicture(String index, byte[] file);
+    String setStudentPicture(Integer index, byte[] file);
 
-    void deleteStudent(String index);
+    void deleteStudent(Integer index);
 
     void updateStudent(Student student);
 
-    String findStudentName(String index);
+    String findStudentName(Integer index);
 
-    void registerStudent(String index, String firstname, String surname);
+    void registerStudent(StudentForm studentForm);
+
+    void saveStudent(Student student);
 }

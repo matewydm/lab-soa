@@ -17,6 +17,7 @@
         <element id="file-copy" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" output-file-name="commons-codec.jar" />
         <element id="file-copy" path="$MAVEN_REPOSITORY$/org/jboss/ws/jbossws-api/1.0.3.Final/jbossws-api-1.0.3.Final.jar" output-file-name="jbossws-api.jar" />
         <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar" output-file-name="jsr250-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/jboss/resteasy/jaxrs-api/3.0.10.Final/jaxrs-api-3.0.10.Final.jar" output-file-name="jaxrs-api.jar" />
       </element>
       <element id="archive" name="lab-model.jar">
         <element id="artifact" artifact-name="lab-model:ejb exploded" />

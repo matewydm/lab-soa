@@ -23,5 +23,6 @@
     <orderEntry type="library" name="Maven: org.jboss.ws:jbossws-api:1.0.3.Final" level="project" />
     <orderEntry type="library" name="Maven: javax.annotation:jsr250-api:1.0" level="project" />
     <orderEntry type="module" module-name="lab-model" />
+    <orderEntry type="library" name="Maven: org.jboss.resteasy:jaxrs-api:3.0.10.Final" level="project" />
   </component>
 </module>

@@ -1,10 +1,10 @@
 package pl.edu.agh.kis.soa.service.impl;
 
-
-import pl.edu.agh.kis.soa.dao.CourseRepository;
-import pl.edu.agh.kis.soa.dao.StudentRepository;
+import pl.edu.agh.kis.soa.dao.CourseDao;
+import pl.edu.agh.kis.soa.dao.StudentDao;
 import pl.edu.agh.kis.soa.model.db.StudentEntity;
 import pl.edu.agh.kis.soa.model.json.Student;
+import pl.edu.agh.kis.soa.model.json.StudentForm;
 import pl.edu.agh.kis.soa.model.mapper.StudentMapper;
 import pl.edu.agh.kis.soa.service.DeanService;
 
@@ -16,61 +16,84 @@ import java.util.List;
 public class DeanServiceImpl implements DeanService{
 
     @Inject
-    private CourseRepository courseRepository;
+    private StudentDao studentDao;
     @Inject
-    private StudentRepository studentRepository;
+    private CourseDao courseDao;
     @Inject
     private StudentMapper studentMapper;
 
     @Override
-    public Student findStudent(String index) {
-        return studentMapper.entityToJson(studentRepository.get(index));
+    public Student findStudent(Integer index) {
+        return studentMapper.entityToJson(studentDao.get(index));
     }
 
     @Override
     public List<Student> getAllStudent() {
-        return studentMapper.entityListToJsonList(studentRepository.getAll());
+        return studentMapper.entityListToJsonList(studentDao.getAll());
     }
 
     @Override
-    public List<Student> getStudentsByIndexList(List<String> indexList) {
+    public List<Student> getStudentsByIndexList(List<Integer> indexList) {
         return null;
     }
 
     @Override
-    public byte[] getStudentPicture(String index) {
+    public byte[] getStudentPicture(Integer index) {
         return new byte[0];
     }
 
     @Override
-    public String setStudentPicture(String index, byte[] file) {
+    public String setStudentPicture(Integer index, byte[] file) {
         return null;
     }
 
     @Override
-    public void deleteStudent(String index) {
+    public void deleteStudent(Integer index) {
         StudentEntity studentEntity = new StudentEntity();
         studentEntity.setStdIndex(index);
-        studentRepository.delete(studentEntity);
+        studentDao.delete(studentEntity);
     }
 
     @Override
     public void updateStudent(Student student) {
-        studentRepository.update(studentMapper.jsonToEntity(student));
+        studentDao.update(studentMapper.jsonToEntity(student));
     }
 
     @Override
-    public String findStudentName(String index) {
-        return studentRepository.getStudentName(index);
+    public String findStudentName(Integer index) {
+        return studentDao.getStudentName(index);
     }
 
     @Override
-    public void registerStudent(String index, String firstname, String surname) {
+    public void registerStudent(StudentForm studentForm) {
         Student student = new Student();
-        student.setIndexNumber(index);
-        student.setFirstName(firstname);
-        student.setSurname(surname);
+        student.setIndexNumber(studentForm.getIndex());
+        student.setFirstName(studentForm.getFirstname());
+        student.setSurname(studentForm.getSurname());
+        student.setPicture(studentForm.getPicture());
         StudentEntity studentEntity = studentMapper.jsonToEntity(student);
-        studentRepository.save(studentEntity);
+        studentDao.save(studentEntity);
     }
+
+    @Override
+    public void saveStudent(Student student) {
+        studentDao.save(studentMapper.jsonToEntity(student));
+    }
+
+    public StudentDao getStudentDao() {
+        return studentDao;
+    }
+
+    public void setStudentDao(StudentDao studentDao) {
+        this.studentDao = studentDao;
+    }
+
+    public CourseDao getCourseDao() {
+        return courseDao;
+    }
+
+    public void setCourseDao(CourseDao courseDao) {
+        this.courseDao = courseDao;
+    }
+
 }

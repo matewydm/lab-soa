@@ -1,8 +1,10 @@
-/home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseRepository.java
-/home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentRepository.java
+/home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/StudentForm.java
 /home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/model/db/CourseEntity.java
 /home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/service/MockDean.java
+/home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/impl/StudentRepository.java
 /home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/service/DeanService.java
+/home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/impl/CourseRepository.java
+/home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/StudentDao.java
 /home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceSimpleImpl.java
 /home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Student.java
 /home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/service/impl/DeanServiceImpl.java
@@ -10,4 +12,5 @@
 /home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/DTOList.java
 /home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/StudentMapper.java
 /home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/model/json/Course.java
+/home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/dao/CourseDao.java
 /home/mucha/Projects/labSoa/lab/lab-model/src/main/java/pl/edu/agh/kis/soa/model/mapper/CourseMapper.java

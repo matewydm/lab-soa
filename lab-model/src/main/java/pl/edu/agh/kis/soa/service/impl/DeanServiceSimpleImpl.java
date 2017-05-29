@@ -2,6 +2,7 @@ package pl.edu.agh.kis.soa.service.impl;
 
 import pl.edu.agh.kis.soa.model.json.Course;
 import pl.edu.agh.kis.soa.model.json.Student;
+import pl.edu.agh.kis.soa.model.json.StudentForm;
 import pl.edu.agh.kis.soa.service.DeanService;
 import pl.edu.agh.kis.soa.service.MockDean;
 
@@ -17,7 +18,7 @@ public class DeanServiceSimpleImpl implements DeanService{
     private List<Student> studentList = new ArrayList<>();
 
     @Override
-    public Student findStudent(String index) {
+    public Student findStudent(Integer index) {
         for (Student s : studentList) {
             if (s.getIndexNumber().equals(index)) {
                 return s;
@@ -32,10 +33,10 @@ public class DeanServiceSimpleImpl implements DeanService{
     }
 
     @Override
-    public List<Student> getStudentsByIndexList(List<String> indexList) {
+    public List<Student> getStudentsByIndexList(List<Integer> indexList) {
         List<Student> retStudents = new ArrayList<>();
         for (Student student : studentList) {
-            for (String index: indexList) {
+            for (Integer index: indexList) {
                 if (index.equals(student.getIndexNumber())){
                     retStudents.add(student);
                 }
@@ -46,7 +47,7 @@ public class DeanServiceSimpleImpl implements DeanService{
     }
 
     @Override
-    public byte[] getStudentPicture(String index) {
+    public byte[] getStudentPicture(Integer index) {
         for (Student student : studentList) {
             if (student.getIndexNumber().equals(index)){
                 return student.getPicture();
@@ -57,7 +58,7 @@ public class DeanServiceSimpleImpl implements DeanService{
     }
 
     @Override
-    public String setStudentPicture(String index, byte[] file) {
+    public String setStudentPicture(Integer index, byte[] file) {
         String encoded = null;
         for (Student student : studentList) {
             if (student.getIndexNumber().equals(index)){
@@ -70,7 +71,7 @@ public class DeanServiceSimpleImpl implements DeanService{
     }
 
     @Override
-    public void deleteStudent(String index) {
+    public void deleteStudent(Integer index) {
         studentList.stream().filter(student -> !student.getIndexNumber().equals(index));
     }
 
@@ -85,13 +86,18 @@ public class DeanServiceSimpleImpl implements DeanService{
     }
 
     @Override
-    public String findStudentName(String index) {
+    public String findStudentName(Integer index) {
         Optional<Student> foundStudent = studentList.stream().filter(student -> student.getIndexNumber().equals(index)).findFirst();
         return foundStudent.get().getFirstName();
     }
 
     @Override
-    public void registerStudent(String index, String firstname, String surname) {
+    public void registerStudent(StudentForm studentForm) {
+
+    }
+
+    @Override
+    public void saveStudent(Student student) {
 
     }
 
@@ -110,19 +116,19 @@ public class DeanServiceSimpleImpl implements DeanService{
     private void initStudents() {
         List studentList = new ArrayList<Student>();
 
-        Student s1 = new Student("Mateusz", "Wydmanski", "275789", getFileByPath("/home/mucha/Obrazy/wallpaper.jpg" ), Arrays.asList(
+        Student s1 = new Student("Mateusz", "Wydmanski", 275789, getFileByPath("/home/mucha/Obrazy/wallpaper.jpg" ), Arrays.asList(
                 new Course[] {new Course("SOA", 5)}
         ));
-        Student s2 = new Student("Michał", "Kałduś", "275757",  getFileByPath("/home/mucha/Obrazy/chrome-icon.png" ),  Arrays.asList(
+        Student s2 = new Student("Michał", "Kałduś", 275757,  getFileByPath("/home/mucha/Obrazy/chrome-icon.png" ),  Arrays.asList(
                 new Course[] {new Course("SOA", 5)}
         ));
         studentList.add(s1);
         studentList.add(s2);
 
         List<Student> studentBuilderList = new ArrayList<Student>();
-        Student x1 = new Student.Builder().firstName("Marcin").surname("Flis").indexNumber("275213").courses(new
+        Student x1 = new Student.Builder().firstName("Marcin").surname("Flis").indexNumber(275213).courses(new
                 Course.Builder().name("SOA").ects(5).build()).courses(new Course.Builder().name("SW").ects(3).build()).build();
-        Student x2 = new Student.Builder().firstName("Damian").surname("Pasek").indexNumber("275212").courses(new
+        Student x2 = new Student.Builder().firstName("Damian").surname("Pasek").indexNumber(275212).courses(new
                 Course.Builder().name("SOA").ects(5).build()).courses(new Course.Builder().name("SW").ects(3).build()).build();
         studentBuilderList.add(x1);
         studentBuilderList.add(x2);

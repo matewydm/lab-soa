@@ -5,23 +5,25 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@NamedQuery(name="getAllStudent",
+        query="SELECT s FROM StudentEntity s")
 @Table(name = "student")
 public class StudentEntity {
 
-    private String stdIndex;
+    private Integer stdIndex;
     private String stdFirstName;
     private String stdSurname;
     private byte[] stdPicture;
     private List<CourseEntity> courses;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue
     @Column(name = "std_index", nullable = false, unique = true)
-    public String getStdIndex() {
+    public Integer getStdIndex() {
         return stdIndex;
     }
 
-    public void setStdIndex(String indexNumber) {
+    public void setStdIndex(Integer indexNumber) {
         this.stdIndex = indexNumber;
     }
 

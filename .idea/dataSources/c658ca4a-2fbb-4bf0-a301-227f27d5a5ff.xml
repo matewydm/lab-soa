@@ -9,8 +9,7 @@
     </database>
     <schema id="3" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-05-23.09:16:11.070</IntrospectionTimestamp>
-      <IntrospectionStateNumber>1229</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2017-05-28.23:57:18.826</IntrospectionTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -29,86 +28,5 @@
     <schema id="8" parent="2" name="information_schema">
       <ObjectId>12121</ObjectId>
     </schema>
-    <table id="9" parent="3" name="course">
-      <ObjectId>25437</ObjectId>
-      <StateNumber>1229</StateNumber>
-    </table>
-    <table id="10" parent="3" name="student">
-      <ObjectId>25447</ObjectId>
-      <StateNumber>1229</StateNumber>
-    </table>
-    <column id="11" parent="9" name="course_id">
-      <Position>1</Position>
-      <DataType>integer|0</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>1227</StateNumber>
-    </column>
-    <column id="12" parent="9" name="crs_ects">
-      <Position>2</Position>
-      <DataType>integer|0</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>1227</StateNumber>
-    </column>
-    <column id="13" parent="9" name="crs_name">
-      <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>1227</StateNumber>
-    </column>
-    <column id="14" parent="9" name="crs_std_index">
-      <Position>4</Position>
-      <DataType>varchar(255)|0</DataType>
-      <StateNumber>1227</StateNumber>
-    </column>
-    <index id="15" parent="9" name="course_pkey">
-      <ObjectId>25445</ObjectId>
-      <ColNames>course_id</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="16" parent="9" name="course_pkey">
-      <ObjectId>25446</ObjectId>
-      <ColNames>course_id</ColNames>
-      <UnderlyingIndexName>course_pkey</UnderlyingIndexName>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="17" parent="9" name="fksrb5c7xvafoavf3s64m3i9civ">
-      <ObjectId>25455</ObjectId>
-      <ColNames>crs_std_index</ColNames>
-      <RefTableName>student</RefTableName>
-      <RefKeyName>student_pkey</RefKeyName>
-      <RefColNames>std_index</RefColNames>
-    </foreign-key>
-    <column id="18" parent="10" name="std_index">
-      <Position>1</Position>
-      <DataType>varchar(255)|0</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>1228</StateNumber>
-    </column>
-    <column id="19" parent="10" name="std_firstname">
-      <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
-      <StateNumber>1228</StateNumber>
-    </column>
-    <column id="20" parent="10" name="std_picture">
-      <Position>3</Position>
-      <DataType>bytea|0</DataType>
-      <StateNumber>1228</StateNumber>
-    </column>
-    <column id="21" parent="10" name="std_surname">
-      <Position>4</Position>
-      <DataType>varchar(255)|0</DataType>
-      <StateNumber>1228</StateNumber>
-    </column>
-    <index id="22" parent="10" name="student_pkey">
-      <ObjectId>25453</ObjectId>
-      <ColNames>std_index</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="23" parent="10" name="student_pkey">
-      <ObjectId>25454</ObjectId>
-      <ColNames>std_index</ColNames>
-      <UnderlyingIndexName>student_pkey</UnderlyingIndexName>
-      <Primary>1</Primary>
-    </key>
   </database-model>
 </dataSource>

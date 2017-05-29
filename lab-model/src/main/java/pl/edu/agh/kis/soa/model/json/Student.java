@@ -10,17 +10,17 @@ public class Student {
     @XmlTransient
     private String firstName;
     private String surname;
-    private String indexNumber;
+    private Integer indexNumber;
     private byte[] picture;
     @XmlElementWrapper(name="courses")
-    @XmlElement(name="course")
+    @XmlElement(name="courses")
     List<Course> courses = new ArrayList<>();
 
     public Student(){
 
     }
 
-    public Student(String firstName, String surname, String indexNumber, byte[] picture, List<Course> courses) {
+    public Student(String firstName, String surname, Integer indexNumber, byte[] picture, List<Course> courses) {
         this.firstName = firstName;
         this.surname = surname;
         this.indexNumber = indexNumber;
@@ -52,11 +52,11 @@ public class Student {
         this.surname = surname;
     }
 
-    public String getIndexNumber() {
+    public Integer getIndexNumber() {
         return indexNumber;
     }
 
-    public void setIndexNumber(String indexNumber) {
+    public void setIndexNumber(Integer indexNumber) {
         this.indexNumber = indexNumber;
     }
 
@@ -83,7 +83,7 @@ public class Student {
     public static final class Builder {
         private String firstName;
         private String surname;
-        private String indexNumber;
+        private Integer indexNumber;
         private byte[] picture;
         private List<Course> courses;
 
@@ -100,7 +100,7 @@ public class Student {
             return this;
         }
 
-        public Builder indexNumber(String val) {
+        public Builder indexNumber(Integer val) {
             indexNumber = val;
             return this;
         }

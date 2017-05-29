@@ -1,50 +1,68 @@
-package pl.edu.agh.kis.soa.dao;
+package pl.edu.agh.kis.soa.dao.impl;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
+import pl.edu.agh.kis.soa.dao.StudentDao;
 import pl.edu.agh.kis.soa.model.db.StudentEntity;
 
-import javax.ejb.Stateful;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceContextType;
+import javax.transaction.Transactional;
 import java.util.List;
 
-@Stateful
-public class StudentRepository {
+@Transactional
+public class StudentRepository implements StudentDao{
 
-    @PersistenceContext(unitName = "PostgresDS", type = PersistenceContextType.EXTENDED)
-    private EntityManager entityManager;
-
-    public void save(StudentEntity student) {
-        entityManager.persist(student);
+    public StudentRepository() {
     }
 
+    @PersistenceContext(unitName = "PostgresDS", type = PersistenceContextType.TRANSACTION)
+    private EntityManager entityManager;
+
+    @Override
+    public void save(StudentEntity student) {
+        Session session = entityManager.unwrap(Session.class);
+        session.save(student);
+    }
+
+    @Override
     public void update(StudentEntity student) {
         Session session = entityManager.unwrap(Session.class);
         session.update(student);
     }
 
+    @Override
     public void delete(StudentEntity student) {
         Session session = entityManager.unwrap(Session.class);
         session.delete(student);
     }
 
+    @Override
     public List<StudentEntity> getAll() {
-        Session session = entityManager.unwrap(Session.class);
-        return session.createCriteria(StudentEntity.class).list();
+        return entityManager.createNamedQuery("getAllStudent").getResultList();
     }
 
-    public StudentEntity get(String index) {
+    @Override
+    public StudentEntity get(Integer index) {
         Session session = entityManager.unwrap(Session.class);
         return (StudentEntity) session.get(StudentEntity.class,index);
     }
 
-    public String getStudentName(String index) {
+    @Override
+    public String getStudentName(Integer index) {
         Session session = entityManager.unwrap(Session.class);
         Query query = session.createQuery("SELECT student.stdFirstName FROM StudentEntity student WHERE " +
                 "student.stdIndex = :index")
-                .setString("index",index);
+                .setInteger("index",index);
         return (String) query.uniqueResult();
+    }
+
+    public EntityManager getEntityManager() {
+        return entityManager;
+    }
+
+    public void setEntityManager(EntityManager entityManager) {
+        this.entityManager = entityManager;
     }
 }
