@@ -1,6 +1,9 @@
 package pl.edu.agh.kis.soa.model.db;
 
 
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -54,7 +57,7 @@ public class StudentEntity {
         this.stdPicture = picture;
     }
 
-    @OneToMany(mappedBy = "crsStudent")
+    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "crsStudent",cascade = CascadeType.ALL)
     public List<CourseEntity> getCourses() {
         return courses;
     }

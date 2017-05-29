@@ -10,10 +10,10 @@ public class CourseEntity {
     private Integer crsId;
     private String crsName;
     private Integer crsEcts;
-    private StudentEntity crsStudent;
+    private List<StudentEntity> crsStudent;
 
     @Id
-    @Column(name = "course_id", nullable = false)
+    @Column(name = "crs_id", nullable = false)
     public Integer getCrsId() {
         return crsId;
     }
@@ -41,13 +41,15 @@ public class CourseEntity {
     }
 
 
-    @ManyToOne
-    @JoinColumn(name = "crs_std_index")
-    public StudentEntity getCrsStudent() {
+    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinTable(name = "course_student",
+            joinColumns = {@JoinColumn(name = "crs_id", nullable = false)},
+            inverseJoinColumns = {@JoinColumn(name = "std_index", nullable = false)})
+    public List<StudentEntity> getCrsStudent() {
         return crsStudent;
     }
 
-    public void setCrsStudent(StudentEntity crsStudent) {
+    public void setCrsStudent(List<StudentEntity> crsStudent) {
         this.crsStudent = crsStudent;
     }
 }

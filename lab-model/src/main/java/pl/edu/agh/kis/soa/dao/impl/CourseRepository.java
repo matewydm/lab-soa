@@ -13,9 +13,10 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceContextType;
 import javax.transaction.Transactional;
+import java.io.Serializable;
 
 @Transactional
-public class CourseRepository implements CourseDao {
+public class CourseRepository implements CourseDao,Serializable {
 
     public CourseRepository() {
     }
@@ -37,8 +38,8 @@ public class CourseRepository implements CourseDao {
 
     @Override
     public void delete(CourseEntity course) {
-        Session session = entityManager.unwrap(Session.class);
-        session.delete(course);
+        CourseEntity entity = entityManager.merge(course);
+        entityManager.remove(entity);
     }
 
     public EntityManager getEntityManager() {

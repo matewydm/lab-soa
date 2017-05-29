@@ -5,14 +5,16 @@ import org.hibernate.Session;
 import pl.edu.agh.kis.soa.dao.StudentDao;
 import pl.edu.agh.kis.soa.model.db.StudentEntity;
 
+import javax.persistence.Entity;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceContextType;
 import javax.transaction.Transactional;
+import java.io.Serializable;
 import java.util.List;
 
 @Transactional
-public class StudentRepository implements StudentDao{
+public class StudentRepository implements StudentDao, Serializable{
 
     public StudentRepository() {
     }
@@ -35,7 +37,12 @@ public class StudentRepository implements StudentDao{
     @Override
     public void delete(StudentEntity student) {
         Session session = entityManager.unwrap(Session.class);
-        session.delete(student);
+        Query query = session.createSQLQuery("DELETE FROM course_student WHERE " +
+            "std_index = :index")
+            .setInteger("index",student.getStdIndex());
+        query.executeUpdate();
+        StudentEntity entity = entityManager.merge(student);
+        entityManager.remove(entity);
     }
 
     @Override

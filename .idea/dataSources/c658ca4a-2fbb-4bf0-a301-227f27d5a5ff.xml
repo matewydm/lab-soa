@@ -9,7 +9,8 @@
     </database>
     <schema id="3" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-05-28.23:57:18.826</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2017-05-29.18:51:56.038</IntrospectionTimestamp>
+      <IntrospectionStateNumber>2525</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -28,5 +29,109 @@
     <schema id="8" parent="2" name="information_schema">
       <ObjectId>12121</ObjectId>
     </schema>
+    <sequence id="9" parent="3" name="hibernate_sequence">
+      <ObjectId>28765</ObjectId>
+      <StateNumber>2516</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="10" parent="3" name="course">
+      <ObjectId>28769</ObjectId>
+      <StateNumber>2525</StateNumber>
+    </table>
+    <table id="11" parent="3" name="course_student">
+      <ObjectId>28777</ObjectId>
+      <StateNumber>2525</StateNumber>
+    </table>
+    <table id="12" parent="3" name="student">
+      <ObjectId>28783</ObjectId>
+      <StateNumber>2524</StateNumber>
+    </table>
+    <column id="13" parent="10" name="crs_id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2518</StateNumber>
+    </column>
+    <column id="14" parent="10" name="crs_ects">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2518</StateNumber>
+    </column>
+    <column id="15" parent="10" name="crs_name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2518</StateNumber>
+    </column>
+    <index id="16" parent="10" name="course_pkey">
+      <ObjectId>28772</ObjectId>
+      <ColNames>crs_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="17" parent="10" name="course_pkey">
+      <ObjectId>28773</ObjectId>
+      <ColNames>crs_id</ColNames>
+      <UnderlyingIndexName>course_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="18" parent="11" name="crs_id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2520</StateNumber>
+    </column>
+    <column id="19" parent="11" name="std_index">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2520</StateNumber>
+    </column>
+    <foreign-key id="20" parent="11" name="fk805i75258o8fb5dvxdjc2mw8v">
+      <ObjectId>28799</ObjectId>
+      <ColNames>crs_id</ColNames>
+      <RefTableName>course</RefTableName>
+      <RefKeyName>course_pkey</RefKeyName>
+      <RefColNames>crs_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="21" parent="11" name="fkopgullkci1g3r0v2dim8negak">
+      <ObjectId>28794</ObjectId>
+      <ColNames>std_index</ColNames>
+      <RefTableName>student</RefTableName>
+      <RefKeyName>student_pkey</RefKeyName>
+      <RefColNames>std_index</RefColNames>
+    </foreign-key>
+    <column id="22" parent="12" name="std_index">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2522</StateNumber>
+    </column>
+    <column id="23" parent="12" name="std_firstname">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>2522</StateNumber>
+    </column>
+    <column id="24" parent="12" name="std_picture">
+      <Position>3</Position>
+      <DataType>bytea|0</DataType>
+      <StateNumber>2522</StateNumber>
+    </column>
+    <column id="25" parent="12" name="std_surname">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>2522</StateNumber>
+    </column>
+    <index id="26" parent="12" name="student_pkey">
+      <ObjectId>28792</ObjectId>
+      <ColNames>std_index</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="27" parent="12" name="student_pkey">
+      <ObjectId>28793</ObjectId>
+      <ColNames>std_index</ColNames>
+      <UnderlyingIndexName>student_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>
