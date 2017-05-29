@@ -9,8 +9,8 @@
     </database>
     <schema id="3" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-05-29.23:43:41.966</IntrospectionTimestamp>
-      <IntrospectionStateNumber>4321</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2017-05-30.00:32:12.352</IntrospectionTimestamp>
+      <IntrospectionStateNumber>4425</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -30,42 +30,42 @@
       <ObjectId>12121</ObjectId>
     </schema>
     <table id="9" parent="3" name="course">
-      <ObjectId>32177</ObjectId>
-      <StateNumber>4321</StateNumber>
+      <ObjectId>32422</ObjectId>
+      <StateNumber>4425</StateNumber>
     </table>
     <table id="10" parent="3" name="course_student">
-      <ObjectId>32184</ObjectId>
-      <StateNumber>4321</StateNumber>
+      <ObjectId>32430</ObjectId>
+      <StateNumber>4425</StateNumber>
     </table>
     <table id="11" parent="3" name="student">
-      <ObjectId>32190</ObjectId>
-      <StateNumber>4320</StateNumber>
+      <ObjectId>32436</ObjectId>
+      <StateNumber>4424</StateNumber>
     </table>
     <column id="12" parent="9" name="crs_id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>4314</StateNumber>
+      <StateNumber>4418</StateNumber>
     </column>
     <column id="13" parent="9" name="crs_ects">
       <Position>2</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>4314</StateNumber>
+      <StateNumber>4418</StateNumber>
     </column>
     <column id="14" parent="9" name="crs_name">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>4314</StateNumber>
+      <StateNumber>4418</StateNumber>
     </column>
     <index id="15" parent="9" name="course_pkey">
-      <ObjectId>32182</ObjectId>
+      <ObjectId>32428</ObjectId>
       <ColNames>crs_id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="16" parent="9" name="course_pkey">
-      <ObjectId>32183</ObjectId>
+      <ObjectId>32429</ObjectId>
       <ColNames>crs_id</ColNames>
       <UnderlyingIndexName>course_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -74,23 +74,23 @@
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>4316</StateNumber>
+      <StateNumber>4420</StateNumber>
     </column>
     <column id="18" parent="10" name="std_index">
       <Position>2</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>4316</StateNumber>
+      <StateNumber>4420</StateNumber>
     </column>
     <foreign-key id="19" parent="10" name="fk805i75258o8fb5dvxdjc2mw8v">
-      <ObjectId>32206</ObjectId>
+      <ObjectId>32452</ObjectId>
       <ColNames>crs_id</ColNames>
       <RefTableName>course</RefTableName>
       <RefKeyName>course_pkey</RefKeyName>
       <RefColNames>crs_id</RefColNames>
     </foreign-key>
     <foreign-key id="20" parent="10" name="fkopgullkci1g3r0v2dim8negak">
-      <ObjectId>32201</ObjectId>
+      <ObjectId>32447</ObjectId>
       <ColNames>std_index</ColNames>
       <RefTableName>student</RefTableName>
       <RefKeyName>student_pkey</RefKeyName>
@@ -100,30 +100,30 @@
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>4318</StateNumber>
+      <StateNumber>4422</StateNumber>
     </column>
     <column id="22" parent="11" name="std_firstname">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>4318</StateNumber>
+      <StateNumber>4422</StateNumber>
     </column>
     <column id="23" parent="11" name="std_picture">
       <Position>3</Position>
       <DataType>bytea|0</DataType>
-      <StateNumber>4318</StateNumber>
+      <StateNumber>4422</StateNumber>
     </column>
     <column id="24" parent="11" name="std_surname">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>4318</StateNumber>
+      <StateNumber>4422</StateNumber>
     </column>
     <index id="25" parent="11" name="student_pkey">
-      <ObjectId>32199</ObjectId>
+      <ObjectId>32445</ObjectId>
       <ColNames>std_index</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="26" parent="11" name="student_pkey">
-      <ObjectId>32200</ObjectId>
+      <ObjectId>32446</ObjectId>
       <ColNames>std_index</ColNames>
       <UnderlyingIndexName>student_pkey</UnderlyingIndexName>
       <Primary>1</Primary>

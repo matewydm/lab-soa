@@ -6,7 +6,6 @@ import pl.edu.agh.kis.soa.dao.StudentDao;
 import pl.edu.agh.kis.soa.model.db.CourseEntity;
 import pl.edu.agh.kis.soa.model.db.StudentEntity;
 
-import javax.ejb.Stateful;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

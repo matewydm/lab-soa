@@ -1,5 +1,6 @@
 package pl.edu.agh.kis.soa.consume.dean;
 
+import org.glassfish.jersey.client.authentication.HttpAuthenticationFeature;
 import pl.edu.agh.kis.soa.model.json.Course;
 import pl.edu.agh.kis.soa.model.json.Student;
 
@@ -15,10 +16,17 @@ import java.util.List;
 public class DeanRestConsume {
 
     private static final String REST_URL = "http://localhost:8080/lab-rest/rest/dean";
+    private static final HttpAuthenticationFeature feature = HttpAuthenticationFeature.basic("usr", "usr");
     private Client client;
 
-    public Student getStudentPathParam(Integer index) {
+    private void prepareClient() {
         client = ClientBuilder.newClient();
+        client.register(feature);
+    }
+
+    public Student getStudentPathParam(Integer index) {
+        prepareClient();
+
         WebTarget target = client.target(REST_URL + "/{index}");
         Student object = target
                         .resolveTemplate("index",index)
@@ -29,7 +37,7 @@ public class DeanRestConsume {
     }
 
     public Student getStudent(Integer index) {
-        client = ClientBuilder.newClient();
+        prepareClient();
         WebTarget target = client.target(REST_URL);
         Student student = target
                 .queryParam("index",index)
@@ -40,7 +48,7 @@ public class DeanRestConsume {
     }
 
     public void deleteStudent(Integer index) {
-        client = ClientBuilder.newClient();
+        prepareClient();
         WebTarget target = client.target(REST_URL + "/{index}");
         target
                 .resolveTemplate("index",index)
@@ -57,7 +65,7 @@ public class DeanRestConsume {
         student.setCourses(getCourse("PSI"));
         student.setCourses(getCourse("TKiK"));
 
-        client = ClientBuilder.newClient();
+        prepareClient();
         WebTarget target = client.target(REST_URL);
         target.request()
               .post(Entity.json(student),Student.class);
@@ -72,7 +80,7 @@ public class DeanRestConsume {
         student.setCourses(generateCourse("AiMO",5));
         student.setCourses(generateCourse("IO",4));
 
-        client = ClientBuilder.newClient();
+        prepareClient();
         WebTarget target = client.target(REST_URL);
         target.request()
                 .post(Entity.json(student),Student.class);
@@ -81,7 +89,7 @@ public class DeanRestConsume {
 
     public List<Student> getAllStudent() {
 
-        client = ClientBuilder.newClient();
+        prepareClient();
         WebTarget target = client.target(REST_URL + "/all");
         List<Student> studentList = target.request().get(List.class);
         client.close();
@@ -89,7 +97,7 @@ public class DeanRestConsume {
     }
 
     public Course getCourse(String name) {
-        client = ClientBuilder.newClient();
+        prepareClient();
         WebTarget target = client.target(REST_URL + "/course");
         Course course = target
                 .queryParam("name",name)

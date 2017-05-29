@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<web-app>
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>Dean access</web-resource-name>
+            <url-pattern>/rest/dean/name</url-pattern>
+            <http-method>GET</http-method>
+        </web-resource-collection>
+
+        <auth-constraint>
+            <role-name>user</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+    <login-config>
+        <auth-method>BASIC</auth-method>
+        <realm-name>jaxrs</realm-name>
+    </login-config>
+
+    <security-role>
+        <role-name>user</role-name>
+    </security-role>
+
+</web-app>

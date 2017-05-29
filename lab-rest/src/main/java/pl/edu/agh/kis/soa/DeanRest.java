@@ -9,6 +9,8 @@ import pl.edu.agh.kis.soa.model.json.StudentForm;
 import pl.edu.agh.kis.soa.service.DeanService;
 import pl.edu.agh.kis.soa.service.MockDean;
 
+import javax.annotation.security.PermitAll;
+import javax.annotation.security.RolesAllowed;
 import javax.inject.Inject;
 import javax.validation.Valid;
 import javax.ws.rs.*;
@@ -19,6 +21,7 @@ import java.util.Base64;
 import java.util.List;
 
 @Path("/dean")
+@RolesAllowed({"user","admin"})
 public class DeanRest {
 
     @Inject
@@ -58,6 +61,7 @@ public class DeanRest {
     }
 
     @DELETE
+    @RolesAllowed("admin")
     @Path("/{index}")
     public void deleteStudent(@PathParam("index") Integer index){
         deanService.deleteStudent(index);
@@ -90,6 +94,7 @@ public class DeanRest {
     }
 
     @POST
+    @PermitAll
     @Path("/register")
     @Consumes(MediaType.MULTIPART_FORM_DATA)
     @Produces(MediaType.APPLICATION_JSON)
