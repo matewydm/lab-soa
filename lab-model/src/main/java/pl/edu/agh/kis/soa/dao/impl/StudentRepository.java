@@ -3,28 +3,33 @@ package pl.edu.agh.kis.soa.dao.impl;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import pl.edu.agh.kis.soa.dao.StudentDao;
+import pl.edu.agh.kis.soa.model.db.CourseEntity;
 import pl.edu.agh.kis.soa.model.db.StudentEntity;
 
-import javax.persistence.Entity;
+import javax.ejb.Stateful;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.persistence.PersistenceContextType;
-import javax.transaction.Transactional;
 import java.io.Serializable;
 import java.util.List;
 
-@Transactional
+@Stateful
 public class StudentRepository implements StudentDao, Serializable{
 
     public StudentRepository() {
     }
 
-    @PersistenceContext(unitName = "PostgresDS", type = PersistenceContextType.TRANSACTION)
+    @PersistenceContext(unitName = "PostgresDS")
     private EntityManager entityManager;
 
     @Override
     public void save(StudentEntity student) {
-        entityManager.persist(student);
+        Session session = entityManager.unwrap(Session.class);
+        for (CourseEntity course : student.getCourses()) {
+            if (course.getCrsId() == null) {
+                session.save(course);
+            }
+        }
+        session.saveOrUpdate(student);
     }
 
     @Override

@@ -3,14 +3,14 @@
   <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.1">
     <root id="1"/>
     <database id="2" parent="1" name="postgresdb">
-      <ObjectId>17115</ObjectId>
+      <ObjectId>30047</ObjectId>
       <Current>1</Current>
       <Visible>1</Visible>
     </database>
     <schema id="3" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-05-29.19:51:53.052</IntrospectionTimestamp>
-      <IntrospectionStateNumber>2748</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2017-05-29.22:15:00.222</IntrospectionTimestamp>
+      <IntrospectionStateNumber>3594</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -30,47 +30,47 @@
       <ObjectId>12121</ObjectId>
     </schema>
     <sequence id="9" parent="3" name="hibernate_sequence">
-      <ObjectId>29243</ObjectId>
-      <StateNumber>2739</StateNumber>
+      <ObjectId>30662</ObjectId>
+      <StateNumber>3585</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
     </sequence>
     <table id="10" parent="3" name="course">
-      <ObjectId>29247</ObjectId>
-      <StateNumber>2748</StateNumber>
+      <ObjectId>30666</ObjectId>
+      <StateNumber>3594</StateNumber>
     </table>
     <table id="11" parent="3" name="course_student">
-      <ObjectId>29255</ObjectId>
-      <StateNumber>2748</StateNumber>
+      <ObjectId>30674</ObjectId>
+      <StateNumber>3594</StateNumber>
     </table>
     <table id="12" parent="3" name="student">
-      <ObjectId>29261</ObjectId>
-      <StateNumber>2747</StateNumber>
+      <ObjectId>30680</ObjectId>
+      <StateNumber>3593</StateNumber>
     </table>
     <column id="13" parent="10" name="crs_id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>2741</StateNumber>
+      <StateNumber>3587</StateNumber>
     </column>
     <column id="14" parent="10" name="crs_ects">
       <Position>2</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>2741</StateNumber>
+      <StateNumber>3587</StateNumber>
     </column>
     <column id="15" parent="10" name="crs_name">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>2741</StateNumber>
+      <StateNumber>3587</StateNumber>
     </column>
     <index id="16" parent="10" name="course_pkey">
-      <ObjectId>29250</ObjectId>
+      <ObjectId>30669</ObjectId>
       <ColNames>crs_id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="17" parent="10" name="course_pkey">
-      <ObjectId>29251</ObjectId>
+      <ObjectId>30670</ObjectId>
       <ColNames>crs_id</ColNames>
       <UnderlyingIndexName>course_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -79,23 +79,23 @@
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>2743</StateNumber>
+      <StateNumber>3589</StateNumber>
     </column>
     <column id="19" parent="11" name="std_index">
       <Position>2</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>2743</StateNumber>
+      <StateNumber>3589</StateNumber>
     </column>
     <foreign-key id="20" parent="11" name="fk805i75258o8fb5dvxdjc2mw8v">
-      <ObjectId>29277</ObjectId>
+      <ObjectId>30696</ObjectId>
       <ColNames>crs_id</ColNames>
       <RefTableName>course</RefTableName>
       <RefKeyName>course_pkey</RefKeyName>
       <RefColNames>crs_id</RefColNames>
     </foreign-key>
     <foreign-key id="21" parent="11" name="fkopgullkci1g3r0v2dim8negak">
-      <ObjectId>29272</ObjectId>
+      <ObjectId>30691</ObjectId>
       <ColNames>std_index</ColNames>
       <RefTableName>student</RefTableName>
       <RefKeyName>student_pkey</RefKeyName>
@@ -105,30 +105,30 @@
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>2745</StateNumber>
+      <StateNumber>3591</StateNumber>
     </column>
     <column id="23" parent="12" name="std_firstname">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>2745</StateNumber>
+      <StateNumber>3591</StateNumber>
     </column>
     <column id="24" parent="12" name="std_picture">
       <Position>3</Position>
       <DataType>bytea|0</DataType>
-      <StateNumber>2745</StateNumber>
+      <StateNumber>3591</StateNumber>
     </column>
     <column id="25" parent="12" name="std_surname">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>2745</StateNumber>
+      <StateNumber>3591</StateNumber>
     </column>
     <index id="26" parent="12" name="student_pkey">
-      <ObjectId>29270</ObjectId>
+      <ObjectId>30689</ObjectId>
       <ColNames>std_index</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="27" parent="12" name="student_pkey">
-      <ObjectId>29271</ObjectId>
+      <ObjectId>30690</ObjectId>
       <ColNames>std_index</ColNames>
       <UnderlyingIndexName>student_pkey</UnderlyingIndexName>
       <Primary>1</Primary>

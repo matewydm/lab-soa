@@ -101,6 +101,11 @@ public class DeanServiceSimpleImpl implements DeanService{
 
     }
 
+    @Override
+    public Course getCourseByName(String name) {
+        return null;
+    }
+
     private byte[] getFileByPath(String path) {
         File file = new File(path);
         byte[] byteArray = new byte[(int) file.length()];

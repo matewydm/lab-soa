@@ -59,8 +59,7 @@ public class StudentEntity {
         this.stdPicture = picture;
     }
 
-    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "crsStudent",cascade = CascadeType.ALL)
-    @Cascade(org.hibernate.annotations.CascadeType.ALL)
+    @ManyToMany(mappedBy = "crsStudent")
     public List<CourseEntity> getCourses() {
         return courses;
     }

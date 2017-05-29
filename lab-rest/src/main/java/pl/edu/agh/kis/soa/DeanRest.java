@@ -3,6 +3,7 @@ package pl.edu.agh.kis.soa;
 
 import org.jboss.resteasy.annotations.providers.multipart.MultipartForm;
 import org.jboss.resteasy.spi.HttpRequest;
+import pl.edu.agh.kis.soa.model.json.Course;
 import pl.edu.agh.kis.soa.model.json.Student;
 import pl.edu.agh.kis.soa.model.json.StudentForm;
 import pl.edu.agh.kis.soa.service.DeanService;
@@ -72,6 +73,13 @@ public class DeanRest {
     @Consumes(MediaType.APPLICATION_JSON)
     public void saveStudent(Student student){
         deanService.saveStudent(student);
+    }
+
+    @GET
+    @Path("/course")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Course saveStudent(@QueryParam(value = "name") String name){
+        return deanService.getCourseByName(name);
     }
 
     @GET

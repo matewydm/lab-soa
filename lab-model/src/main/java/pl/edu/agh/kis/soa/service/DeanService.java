@@ -1,5 +1,6 @@
 package pl.edu.agh.kis.soa.service;
 
+import pl.edu.agh.kis.soa.model.json.Course;
 import pl.edu.agh.kis.soa.model.json.Student;
 import pl.edu.agh.kis.soa.model.json.StudentForm;
 
@@ -26,4 +27,6 @@ public interface DeanService {
     void registerStudent(StudentForm studentForm);
 
     void saveStudent(Student student);
+
+    Course getCourseByName(String name);
 }

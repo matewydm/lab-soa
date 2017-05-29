@@ -15,19 +15,27 @@ import javax.persistence.PersistenceContextType;
 import javax.transaction.Transactional;
 import java.io.Serializable;
 
-@Transactional
+@Stateful
 public class CourseRepository implements CourseDao,Serializable {
 
     public CourseRepository() {
     }
 
-    @PersistenceContext(unitName = "PostgresDS", type = PersistenceContextType.TRANSACTION)
+    @PersistenceContext(unitName = "PostgresDS")
     private EntityManager entityManager;
 
     @Override
     public void save(CourseEntity course) {
         Session session = entityManager.unwrap(Session.class);
         session.save(course);
+    }
+
+    @Override
+    public CourseEntity getByName(String name) {
+        return (CourseEntity) entityManager.createQuery("SELECT course FROM CourseEntity course WHERE " +
+                "course.crsName = :name")
+                .setParameter("name",name)
+                .getSingleResult();
     }
 
     @Override

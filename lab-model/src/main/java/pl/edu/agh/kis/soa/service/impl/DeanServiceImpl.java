@@ -3,8 +3,10 @@ package pl.edu.agh.kis.soa.service.impl;
 import pl.edu.agh.kis.soa.dao.CourseDao;
 import pl.edu.agh.kis.soa.dao.StudentDao;
 import pl.edu.agh.kis.soa.model.db.StudentEntity;
+import pl.edu.agh.kis.soa.model.json.Course;
 import pl.edu.agh.kis.soa.model.json.Student;
 import pl.edu.agh.kis.soa.model.json.StudentForm;
+import pl.edu.agh.kis.soa.model.mapper.CourseMapper;
 import pl.edu.agh.kis.soa.model.mapper.StudentMapper;
 import pl.edu.agh.kis.soa.service.DeanService;
 
@@ -21,6 +23,8 @@ public class DeanServiceImpl implements DeanService{
     private CourseDao courseDao;
     @Inject
     private StudentMapper studentMapper;
+    @Inject
+    private CourseMapper courseMapper;
 
     @Override
     public Student findStudent(Integer index) {
@@ -78,6 +82,11 @@ public class DeanServiceImpl implements DeanService{
     @Override
     public void saveStudent(Student student) {
         studentDao.save(studentMapper.jsonToEntity(student));
+    }
+
+    @Override
+    public Course getCourseByName(String name) {
+        return courseMapper.entityToJson(courseDao.getByName(name));
     }
 
     public StudentDao getStudentDao() {

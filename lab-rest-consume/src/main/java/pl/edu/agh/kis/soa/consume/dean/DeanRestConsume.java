@@ -54,8 +54,8 @@ public class DeanRestConsume {
         student.setFirstName("Dare");
         student.setSurname("Tii");
         student.setIndexNumber(11111);
-        student.setCourses(generateCourse("AiMO",3));
-        student.setCourses(generateCourse("IO",4));
+        student.setCourses(getCourse("PSI"));
+        student.setCourses(getCourse("TKiK"));
 
         client = ClientBuilder.newClient();
         WebTarget target = client.target(REST_URL);
@@ -69,10 +69,22 @@ public class DeanRestConsume {
         client = ClientBuilder.newClient();
         WebTarget target = client.target(REST_URL + "/all");
         List<Student> studentList = target.request().get(List.class);
+        client.close();
         return studentList;
     }
 
-    public Course generateCourse(String name, Integer ects) {
+    public Course getCourse(String name) {
+        client = ClientBuilder.newClient();
+        WebTarget target = client.target(REST_URL + "/course");
+        Course course = target
+                .queryParam("name",name)
+                .request()
+                .get(Course.class);
+        client.close();
+        return course;
+    }
+
+    private Course generateCourse(String name, Integer ects) {
         Course course = new Course();
         course.setName(name);
         course.setEcts(ects);

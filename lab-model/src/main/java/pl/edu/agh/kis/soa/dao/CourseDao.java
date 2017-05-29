@@ -9,6 +9,8 @@ public interface CourseDao {
 
     void save(CourseEntity course);
 
+    CourseEntity getByName(String name);
+
     void update(CourseEntity course);
 
     void delete(CourseEntity course);
