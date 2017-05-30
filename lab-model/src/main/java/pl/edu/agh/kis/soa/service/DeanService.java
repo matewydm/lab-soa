@@ -4,6 +4,7 @@ import pl.edu.agh.kis.soa.model.json.Course;
 import pl.edu.agh.kis.soa.model.json.Student;
 import pl.edu.agh.kis.soa.model.json.StudentForm;
 
+import javax.ws.rs.core.Response;
 import java.util.List;
 
 public interface DeanService {
@@ -14,7 +15,9 @@ public interface DeanService {
 
     List<Student> getStudentsByIndexList(List<Integer> indexList);
 
-    byte[] getStudentPicture(Integer index);
+    Response getStudentPicture(Integer index);
+
+    byte[] getStudentPictureByte(Integer index);
 
     String setStudentPicture(Integer index, byte[] file);
 

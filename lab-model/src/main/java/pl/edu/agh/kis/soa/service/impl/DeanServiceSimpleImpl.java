@@ -7,6 +7,7 @@ import pl.edu.agh.kis.soa.service.DeanService;
 import pl.edu.agh.kis.soa.service.MockDean;
 
 import javax.annotation.PostConstruct;
+import javax.ws.rs.core.Response;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -47,7 +48,12 @@ public class DeanServiceSimpleImpl implements DeanService{
     }
 
     @Override
-    public byte[] getStudentPicture(Integer index) {
+    public Response getStudentPicture(Integer index) {
+        return null;
+    }
+
+    @Override
+    public byte[] getStudentPictureByte(Integer index) {
         for (Student student : studentList) {
             if (student.getIndexNumber().equals(index)){
                 return student.getPicture();

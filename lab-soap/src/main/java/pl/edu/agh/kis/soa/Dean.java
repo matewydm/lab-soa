@@ -53,7 +53,7 @@ public class Dean {
     @WebResult(name = "picture")
     @PermitAll
     public byte[] getStudentPicture(@WebParam(name = "index") Integer index) {
-        return deanService.getStudentPicture(index);
+        return deanService.getStudentPictureByte(index);
     }
 
     @WebMethod(action = "getCourses")

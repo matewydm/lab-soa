@@ -55,28 +55,31 @@ public class DeanRest {
 
     @GET
     @Path("/picture/{index}")
-    @Produces(MediaType.APPLICATION_JSON)
-    public byte[] getPictureByIndex(@PathParam(value = "index") Integer index){
+    @Produces(MediaType.APPLICATION_OCTET_STREAM)
+    public Response getPictureByIndex(@PathParam(value = "index") Integer index){
         return deanService.getStudentPicture(index);
     }
 
     @DELETE
     @RolesAllowed("admin")
     @Path("/{index}")
-    public void deleteStudent(@PathParam("index") Integer index){
+    public Response deleteStudent(@PathParam("index") Integer index){
         deanService.deleteStudent(index);
+        return Response.status(Response.Status.OK).build();
     }
 
     @PUT
     @Consumes(MediaType.APPLICATION_JSON)
-    public void updateStudent(Student student){
+    public Response updateStudent(Student student){
         deanService.updateStudent(student);
+        return Response.status(Response.Status.OK).build();
     }
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public void saveStudent(Student student){
+    public Response saveStudent(Student student){
         deanService.saveStudent(student);
+        return Response.status(Response.Status.OK).build();
     }
 
     @GET
@@ -89,7 +92,7 @@ public class DeanRest {
     @GET
     @Path("/picture/{index}")
     @Consumes(MediaType.APPLICATION_JSON)
-    public byte[] getStudentPicture(@PathParam("index") Integer index){
+    public Response getStudentPicture(@PathParam("index") Integer index){
         return deanService.getStudentPicture(index);
     }
 

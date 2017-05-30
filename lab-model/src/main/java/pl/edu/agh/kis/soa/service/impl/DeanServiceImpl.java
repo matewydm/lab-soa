@@ -12,6 +12,7 @@ import pl.edu.agh.kis.soa.service.DeanService;
 
 import javax.enterprise.inject.Default;
 import javax.inject.Inject;
+import javax.ws.rs.core.Response;
 import java.util.List;
 
 @Default
@@ -42,8 +43,20 @@ public class DeanServiceImpl implements DeanService{
     }
 
     @Override
-    public byte[] getStudentPicture(Integer index) {
-        return studentDao.getPictureByIndex(index);
+    public Response getStudentPicture(Integer index) {
+        byte[] picture =  studentDao.getPictureByIndex(index);
+        if (picture != null) {
+            Response.ResponseBuilder responseBuilder = Response.ok(picture);
+            responseBuilder.header("Content-Disposition","attachment;filename=dare.jpg");
+            return responseBuilder.build();
+        }
+        return Response.status(Response.Status.NOT_FOUND).build();
+
+    }
+
+    @Override
+    public byte[] getStudentPictureByte(Integer index) {
+        return new byte[0];
     }
 
     @Override
